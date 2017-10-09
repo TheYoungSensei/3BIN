@@ -61,7 +61,10 @@ namespace SportsStore.UnitTests
             + @"<a class=""btn btn-default btn-primary selected"" href=""Page2"">2</a>"
             + @"<a class=""btn btn-default"" href=""Page3"">3</a>",
             result.ToString());
-        }        [TestMethod]        public void Can_Send_Pagination_View_Model()
+        }
+
+        [TestMethod]
+        public void Can_Send_Pagination_View_Model()
         {
             //Arrange
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
@@ -84,6 +87,7 @@ namespace SportsStore.UnitTests
             Assert.AreEqual(pageInfo.ItemsPerPage, 3);
             Assert.AreEqual(pageInfo.TotalItems, 5);
             Assert.AreEqual(pageInfo.TotalPages, 2);
-        }
+        }
+
     }
 }

@@ -32,7 +32,7 @@ namespace SportsStore.WebUI.Controllers
                     ItemsPerPage = pageSize,
                     TotalItems = repository.Products.Count()
                 }
-            }
+            };
             return View(model);
         }
     }
