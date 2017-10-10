@@ -39,6 +39,8 @@ class E09 {
     // 0 <= f <= n x m;
     static int szf;
 
+    static int nb;
+
     public static void main(String[] args) {
         t = scanner.nextInt();
         int i = 0;
@@ -51,7 +53,7 @@ class E09 {
 
     static void analyzeMap() {
         //Obtention des coordonnées GPS
-        t = 0;
+        nb = 0;
         rf[nF][mF] = true;
         addPile(nF, mF);
         //Mais où est donc Tarjan ?
@@ -68,14 +70,14 @@ class E09 {
             }
         }
         if(found) {
-            System.out.println(t + " true");
+            System.out.println(nb + " true");
         } else {
-            System.out.println(t + " false");
+            System.out.println(nb + " false");
         }
     }
 
     static void addPile(int ligne, int colonne) {
-        t++;
+        nb++;
         rf[ligne][colonne] = true;
         f[0][szf] = ligne;
         f[1][szf] = colonne;

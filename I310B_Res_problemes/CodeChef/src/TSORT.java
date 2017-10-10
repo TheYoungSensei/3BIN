@@ -1,6 +1,6 @@
 import java.util.Arrays;
  
-public class Main {
+public class TSORT {
 	
 	public static java.util.Scanner scanner = new java.util.Scanner(System.in);
  
