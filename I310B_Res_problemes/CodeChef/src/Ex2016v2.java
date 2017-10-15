@@ -1,7 +1,9 @@
 //I301B, 015, Examen S1 2016, E08, S03, Q1, 2017-2018
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
-public class E08 {
+public class Ex2016v2 {
 
     static Scanner scanner = new Scanner(System.in);
 
@@ -14,6 +16,8 @@ public class E08 {
     static int szf;
 
     static boolean[][] mtx;
+
+    static Map<Integer, Integer> parents = new HashMap<>();
 
     static void init() {
         int n = scanner.nextInt();
@@ -43,25 +47,38 @@ public class E08 {
         while(szf != 0) {
             int c = popPile();
             if(c == tgt) {
-                System.out.println("true");
+                System.out.println(createPath(c));
                 return;
             }
             rf[c] = true;
             int t = succ(c);
-            if(t != -1)
-                addToPile(t);
-            /*
-            int t = succ(c);
-            if(t == tgt) {
-                System.out.println("true");
-                return;
-            }
             if(t != -1) {
                 addToPile(t);
-                rf[t] = true;
-            }*/
+                parents.put(t, c);
+            }
         }
-        System.out.println("false");
+        System.out.println("0");
+    }
+
+    private static String createPath(int g) {
+        //On récupère l'état initial
+        Map<Integer, Integer> map = new HashMap<>();
+        int nbIterations = 1;
+        while (parents.containsKey(g)) {
+            int p = parents.get(g);
+            map.put(p, g);
+            g = p;
+        }
+        //Création du chemin
+        StringBuilder toReturn = new StringBuilder();
+        while(map.containsKey(g)) {
+            toReturn.append(g).append(" ");
+            g = map.get(g);
+            nbIterations += 1;
+        }
+        toReturn.append(g);
+        toReturn.insert(0, nbIterations + " ");
+        return toReturn.toString();
     }
 
     private static int popPile() {

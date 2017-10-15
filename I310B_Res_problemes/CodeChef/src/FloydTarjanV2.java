@@ -1,9 +1,39 @@
 // I301B, 017, Floyd et les rues de Pallo Alto 2016, E09, S03, Q1, 2017-2018
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
-class E09 {
+class FloydTarjanv2 {
     static Scanner scanner = new Scanner(System.in);
+
+    private static class Node {
+        private int ligne;
+        private int colonne;
+
+        public Node(int ligne, int colonne) {
+            this.ligne = ligne;
+            this.colonne = colonne;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+
+            Node node = (Node) o;
+
+            if (ligne != node.ligne) return false;
+            return colonne == node.colonne;
+        }
+
+        @Override
+        public int hashCode() {
+            int result = ligne;
+            result = 31 * result + colonne;
+            return result;
+        }
+    }
 
     //Nombre de croquis
     static int t;
@@ -41,10 +71,13 @@ class E09 {
 
     static int nb;
 
+    static Map<Node, Node> parents;
+
     public static void main(String[] args) {
         t = scanner.nextInt();
         int i = 0;
         while (i != t) {
+            parents = new HashMap<>();
             readInputs();
             analyzeMap();
             i++;
@@ -67,12 +100,36 @@ class E09 {
             succ(c[0][0], c[1][0]); //Obtention des coordonnées possible
             if(map[c[0][0]][c[1][0]] == 'T') { //Ho tiens voici Tarjan
                 found = true;
+
             }
         }
         if(found) {
-            System.out.println(nb + " true");
+            System.out.println("true");
+            createPath();
         } else {
-            System.out.println(nb + " false");
+            System.out.println("false");
+        }
+        printMap();
+    }
+
+    private static void printMap() {
+        for(int i = 0; i < map.length; i++) {
+            String ligne = "";
+            for(int j = 0; j < map[i].length; j++) {
+                ligne += map[i][j];
+            }
+            System.out.println(ligne);
+        }
+    }
+
+    private static void createPath() {
+        Node g = new Node(nT, mT);
+        while(parents.containsKey(g)) {
+            Node p = parents.get(g);
+            if(map[p.ligne][p.colonne] == '.') {
+                map[p.ligne][p.colonne] = '+';
+            }
+            g = p;
         }
     }
 
@@ -94,23 +151,24 @@ class E09 {
 
     static void succ(int ligne, int colonne) {
         if(ligne < map.length - 1) { //Puis je aller en haut ?
-            check(ligne + 1, colonne);
+            check(ligne + 1, colonne, ligne, colonne);
         }
         if(ligne != 0) { //Puis je aller en bas ?
-            check(ligne-1, colonne);
+            check(ligne-1, colonne, ligne, colonne);
         }
         if(colonne < map[ligne].length - 1) { //Puis je aller à droite ?
-            check(ligne, colonne + 1);
+            check(ligne, colonne + 1, ligne, colonne);
         }
         if(colonne != 0) { //Puis je aller à gauche ?
-            check(ligne, colonne - 1);
+            check(ligne, colonne - 1, ligne, colonne);
         }
     }
 
-    private static void check(int ligne, int colonne) {
+    private static void check(int ligne, int colonne, int lignePrec, int colonnePrec) {
         //Si je n'ai pas déjà visiter cette case et que je peux y accéder (qu'il s'agisse soit d'un . ou de Tarjan
         if(!rf[ligne][colonne] && (map[ligne][colonne] == '.' || map[ligne][colonne] == 'T')) {
             addPile(ligne, colonne); //Alors j'essaye de m'en souvenir
+            parents.put(new Node(ligne, colonne), new Node(lignePrec, colonnePrec));
         }
     }
 
