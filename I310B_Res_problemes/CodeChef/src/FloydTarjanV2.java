@@ -5,13 +5,13 @@ import java.util.Map;
 import java.util.Scanner;
 
 class FloydTarjanv2 {
-    static Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     private static class Node {
         private int ligne;
         private int colonne;
 
-        public Node(int ligne, int colonne) {
+        Node(int ligne, int colonne) {
             this.ligne = ligne;
             this.colonne = colonne;
         }
@@ -23,8 +23,7 @@ class FloydTarjanv2 {
 
             Node node = (Node) o;
 
-            if (ligne != node.ligne) return false;
-            return colonne == node.colonne;
+            return ligne == node.ligne && colonne == node.colonne;
         }
 
         @Override
@@ -35,46 +34,38 @@ class FloydTarjanv2 {
         }
     }
 
-    //Nombre de croquis
-    static int t;
-    //Nombre de lignes du croquis courant
-    static int n;
-    //Nombre de colonnes du croquis courant
-    static int m;
     //croquis courant
-    static char[][] map;
+    private static char[][] map;
 
     // Num鲯 de ligne de Floyd
-    static int nF;
+    private static int nF;
     // Num鲯 de colonne de Floyd
-    static int mF;
+    private static int mF;
     // Num鲯 de ligne de Tarjan
-    static int nT;
+    private static int nT;
     // Num鲯 de colonne de Tarjan
-    static int mT;
+    private static int mT;
 
     // Table de pr鳥nce des 鴡ts visit鳍
     // rf est un tableau rectangulaire de n lignes et m colonnes.
     // rf[i][j] == true <==> la case dont le num鲯 de ligne vaut i et
     // dont le num鲯 de colonne vaut j a 鴩 visit饮
-    static boolean[][] rf;
+    private static boolean[][] rf;
 
     // Coordonn饳 des cases appartenant ࠬa fronti貥.
     // f a une taille logique de n x m;
     // f[0] contient des num鲯s de lignes.
     // f[1] contient des num鲯s de colonnes.
-    static int[][] f;
+    private static int[][] f;
 
     // Taille logique de f
     // 0 <= f <= n x m;
-    static int szf;
+    private static int szf;
 
-    static int nb;
-
-    static Map<Node, Node> parents;
+    private static Map<Node, Node> parents;
 
     public static void main(String[] args) {
-        t = scanner.nextInt();
+        int t = scanner.nextInt();
         int i = 0;
         while (i != t) {
             parents = new HashMap<>();
@@ -84,9 +75,8 @@ class FloydTarjanv2 {
         }
     }
 
-    static void analyzeMap() {
+    private static void analyzeMap() {
         //Obtention des coordonnées GPS
-        nb = 0;
         rf[nF][mF] = true;
         addPile(nF, mF);
         //Mais où est donc Tarjan ?
@@ -106,19 +96,19 @@ class FloydTarjanv2 {
         if(found) {
             System.out.println("true");
             createPath();
+            printMap();
         } else {
             System.out.println("false");
         }
-        printMap();
     }
 
     private static void printMap() {
-        for(int i = 0; i < map.length; i++) {
-            String ligne = "";
-            for(int j = 0; j < map[i].length; j++) {
-                ligne += map[i][j];
+        for (char[] aMap : map) {
+            StringBuilder line = new StringBuilder();
+            for (int j = 0; j < aMap.length; j++) {
+                line.append(aMap[j]);
             }
-            System.out.println(ligne);
+            System.out.println(line);
         }
     }
 
@@ -133,15 +123,14 @@ class FloydTarjanv2 {
         }
     }
 
-    static void addPile(int ligne, int colonne) {
-        nb++;
+    private static void addPile(int ligne, int colonne) {
         rf[ligne][colonne] = true;
         f[0][szf] = ligne;
         f[1][szf] = colonne;
         szf++;
     }
 
-    static int[][] popPile(){
+    private static int[][] popPile(){
         int elem[][] = new int[2][1];
         elem[0][0] = f[0][szf - 1];
         elem[1][0] = f[1][szf - 1];
@@ -149,7 +138,7 @@ class FloydTarjanv2 {
         return elem;
     }
 
-    static void succ(int ligne, int colonne) {
+    private static void succ(int ligne, int colonne) {
         if(ligne < map.length - 1) { //Puis je aller en haut ?
             check(ligne + 1, colonne, ligne, colonne);
         }
@@ -175,9 +164,9 @@ class FloydTarjanv2 {
     // Cette m鴨ode lit les informations sur l'entr饠standard
     // et initialise les attributs relatifs au croquis courant
     // et ࠳on parcours.
-    static void readInputs() {
-        n = scanner.nextInt();
-        m = scanner.nextInt();
+    private static void readInputs() {
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
         scanner.nextLine();
 
         map = new char[n][m];
