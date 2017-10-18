@@ -1,0 +1,2 @@
+ifconfig eth0 88.88.88.88/32 up
+route add -host 87.87.87.87 gw 88.88.88.88
