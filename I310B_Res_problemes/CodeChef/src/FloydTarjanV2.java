@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-class FloydTarjanv2 {
+class FloydTarjanV2 {
     private static Scanner scanner = new Scanner(System.in);
 
     private static class Node {
