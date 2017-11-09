@@ -12,198 +12,107 @@
 1 0 0 1
  */
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Arrays;
 
 public class ChefAndRobots {
 
     private static java.util.Scanner scanner = new java.util.Scanner(System.in);
-    private static Case found;
+    private static int n;
+    private static int m;
+    private static int k[] = new int[2];
 
-    private static class Case {
-        int ligne;
-        int colonne;
-
-        Case(int ligne, int colonne) {
-            this.ligne = ligne;
-            this.colonne = colonne;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-
-            Case aCase = (Case) o;
-
-            return ligne == aCase.ligne && colonne == aCase.colonne;
-        }
-
-        @Override
-        public int hashCode() {
-            int result = ligne;
-            result = 31 * result + colonne;
-            return result;
-        }
-    }
-
+    private static int couts[][][];
     private static int map[][];
-    private static int mapRobot1[][][];
-    private static int mapRobot2[][][];
-    private static int nbMovesRobot2;
-    private static int nbMovesRobot1;
-    private static Case robot1;
-    private static Case robot2;
-    private static Set<Case> rfrobot1;
-    private static Set<Case> rfrobot2;
-    private static Case frobot1[];
-    private static int szfrobot1;
-    private static int szfrobot2;
-    private static int teteRobot1;
-    private static int teteRobot2;
-    private static Case frobot2[];
-    private static final int ROBOT1 = 1;
-    private static final int ROBOT2 = 2;
+    private static boolean rf[][][];
+
+    private static int ROBOT1 = 0;
+    private static int ROBOT2 = 1;
+    private static int LIGNE = 0;
+    private static int COLONNE = 1;
 
     public static void main(String[] args) {
-        int testCases = scanner.nextInt();
-        for(int i = 0; i < testCases; i++) {
-            creation();
-            initialisation();
-        }
-    }
-
-    private static void creation() {
-        //N
-        int nbRows = scanner.nextInt();
-        //M
-        int nbColumns = scanner.nextInt();
-        //K1
-        nbMovesRobot1 = scanner.nextInt();
-        //K2
-        nbMovesRobot2 = scanner.nextInt();
-        map = new int[nbRows][nbColumns];
-        mapRobot1 = new int[nbRows][nbColumns][1];
-        mapRobot2 = new int[nbRows][nbColumns][1];
-        for(int i = 0; i < nbRows; i++) {
-            for(int j = 0; j < nbColumns; j++) {
-                map[i][j] = scanner.nextInt();
-            }
-        }
-        robot1 = new Case(0,0);
-        robot2 = new Case(0, nbColumns - 1);
-        rfrobot1 = new HashSet<>();
-        rfrobot2 = new HashSet<>();
-        frobot1 = new Case[nbRows * nbColumns];
-        szfrobot1 = 0;
-        teteRobot1 = 0;
-        teteRobot2 = 0;
-        frobot2 = new Case[nbRows * nbColumns];
-        szfrobot2 = 0;
-    }
-
-    private static void addLast(Case c, int robot) {
-        if(robot == 1) {
-            frobot1[teteRobot1] = c;
-            szfrobot1++;
-        } else {
-            frobot2[teteRobot2] = c;
-            szfrobot2++;
-        }
-    }
-
-    private static Case removeFirst(int robot) {
-        Case c = null;
-        if(robot == 1) {
-            c = frobot1[teteRobot1];
-            teteRobot1++;
-            szfrobot1--;
-        } else {
-            c = frobot2[teteRobot2];
-            teteRobot2++;
-            szfrobot2--;
-        }
-        return c;
-    }
-
-    private static void initialisation() {
-        //Initialisation Robot 1
-        rfrobot1.add(robot1);
-        addLast(robot1, ROBOT1);
-        //Initialisation Robot 2
-        rfrobot2.add(robot2);
-        addLast(robot2, ROBOT2);
-        found = null;
-        while(szfrobot1 != 0 && szfrobot2 != 0 && found == null) {
-            Case cRobot1 = removeFirst(ROBOT1);
-            Case cRobot2 = removeFirst(ROBOT2);
-            succ(cRobot1, ROBOT1);
-            succ(cRobot2, ROBOT2);
-        }
-        if(found != null) {
-            if(mapRobot1[found.ligne][found.colonne][0] < mapRobot2[found.ligne][found.colonne][0]) {
-                System.out.println(mapRobot2[found.ligne][found.colonne][0]);
+        int nbCases = scanner.nextInt();
+        for(int i = 0; i < nbCases; i++) {
+            init();
+            int depart[] = new int[2];
+            depart[LIGNE] = 0;
+            depart[COLONNE] = 0;
+            doIt(depart, ROBOT1);
+            depart[LIGNE] = 0;
+            depart[COLONNE] = m - 1;
+            doIt(depart, ROBOT2);
+            if(minDeplacements != Integer.MAX_VALUE) {
+                System.out.println(minDeplacements);
             } else {
-                System.out.println(mapRobot1[found.ligne][found.colonne][0]);
+                System.out.println(-1);
             }
-        } else {
-            System.out.println(-1);
         }
     }
 
-    private static void succ(Case c, int robot) {
-        chain(0, c, c, robot);
+    private static void init() {
+        n = scanner.nextInt();
+        m = scanner.nextInt();
+        k[ROBOT1] = scanner.nextInt();
+        k[ROBOT2] = scanner.nextInt();
+        couts = new int[n][m][2];
+        rf = new boolean[n][m][2];
+        map = new int[n][m];
+        minDeplacements = Integer.MAX_VALUE;
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < m; j++) {
+                map[i][j] = scanner.nextInt();
+                couts[i][j][ROBOT1] = Integer.MAX_VALUE;
+                couts[i][j][ROBOT2] = Integer.MAX_VALUE;
+            }
+        }
     }
 
-    private static void chain(int deplacements, Case c, Case parent, int robot) {
-        if(robot == ROBOT1) {
-            if(!rfrobot1.contains(c) && map[c.ligne][c.colonne] != 1) {
-                rfrobot1.add(c);
-                addLast(c, ROBOT1);
-                if(!c.equals(parent)) {
-                    if(mapRobot1[parent.ligne][parent.colonne][0] + 1 <  mapRobot1[c.ligne][c.colonne][0] || mapRobot1[c.ligne][c.colonne][0] == 0) {
-                        mapRobot1[c.ligne][c.colonne][0] = mapRobot1[parent.ligne][parent.colonne][0] + 1;
-                    }
-                }
-            }
-            if(rfrobot2.contains(c)) {
-                found = c;
-            }
-            if(deplacements >= nbMovesRobot1) {
-                return;
-            }
-        } else {
-            if(!rfrobot2.contains(c) && map[c.ligne][c.colonne] != 1) {
-                rfrobot2.add(c);
-                addLast(c, ROBOT2);
-            }
-            if(!c.equals(parent)) {
-                if(mapRobot2[parent.ligne][parent.colonne][0] + 1 <  mapRobot2[c.ligne][c.colonne][0] || mapRobot2[c.ligne][c.colonne][0] == 0) {
-                    mapRobot2[c.ligne][c.colonne][0] = mapRobot2[parent.ligne][parent.colonne][0] + 1;
-                }
-            }
-            if(rfrobot1.contains(c)) {
-                found = c;
-            }
-            if(deplacements >= nbMovesRobot2) {
-                return;
+    private static void doIt(int[] depart, int robot) {
+        ArrayDeque<int[]> pile = new ArrayDeque<>();
+        pile.addLast(depart);
+        couts[depart[LIGNE]][depart[COLONNE]][robot] = 0;
+        rf[depart[LIGNE]][depart[COLONNE]][robot] = true;
+        while(!pile.isEmpty()) {
+            int c[] = pile.removeFirst();
+            deplacement(0, c, c, robot, pile);
+        }
+
+    }
+
+    private static int intermediateC[] = new int[2];
+    private static int minDeplacements;
+
+    private static void deplacement(int nbDeplacements, int[] c, int[] parent, int robot, ArrayDeque<int[]> pile) {
+        if(map[c[LIGNE]][c[COLONNE]] != 1 && !rf[c[LIGNE]][c[COLONNE]][robot]) {
+            rf[c[LIGNE]][c[COLONNE]][robot] = true;
+            couts[c[LIGNE]][c[COLONNE]][robot] = couts[parent[LIGNE]][parent[COLONNE]][robot] + 1;
+            pile.add(Arrays.copyOf(c, 2));
+            if(rf[c[LIGNE]][c[COLONNE]][ROBOT1]
+                    && rf[c[LIGNE]][c[COLONNE]][ROBOT2]
+                    && (Math.max(couts[c[LIGNE]][c[COLONNE]][ROBOT1], couts[c[LIGNE]][c[COLONNE]][ROBOT2]) < minDeplacements)) {
+                minDeplacements = Math.max(couts[c[LIGNE]][c[COLONNE]][ROBOT1], couts[c[LIGNE]][c[COLONNE]][ROBOT2]);
             }
         }
-        //Haut
-        if(c.ligne < map.length - 1) {
-            chain(deplacements + 1, new Case(c.ligne + 1, c.colonne), parent, robot);
+        if(c[LIGNE] != 0 && nbDeplacements < k[robot]) {
+            intermediateC[COLONNE] = c[COLONNE];
+            intermediateC[LIGNE] = c[LIGNE] - 1;
+            deplacement(nbDeplacements +1, intermediateC, parent, robot, pile);
         }
-        //Bas
-        if(c.ligne != 0) {
-            chain(deplacements + 1, new Case(c.ligne - 1, c.colonne), parent, robot);
+        if(c[COLONNE] != 0 && nbDeplacements < k[robot]) {
+            intermediateC[LIGNE] = c[LIGNE];
+            intermediateC[COLONNE] = c[COLONNE] - 1;
+            deplacement(nbDeplacements + 1, intermediateC, parent, robot, pile);
         }
-        //Gauche
-        if(c.colonne != 0) {
-            chain(deplacements + 1, new Case(c.ligne, c.colonne - 1), parent, robot);
+        if(c[LIGNE] < map.length - 1 && nbDeplacements < k[robot]) {
+            intermediateC[COLONNE] = c[COLONNE];
+            intermediateC[LIGNE] = c[LIGNE] + 1;
+            deplacement(nbDeplacements + 1, intermediateC, parent, robot, pile);
         }
-        //Droite
-        if(c.colonne < map[c.ligne].length - 1) {
-            chain(deplacements + 1, new Case(c.ligne, c.colonne + 1), parent, robot);
+        if(c[COLONNE] < map[LIGNE].length - 1 && nbDeplacements < k[robot]) {
+            intermediateC[LIGNE] = c[LIGNE];
+            intermediateC[COLONNE] = c[COLONNE] + 1;
+            deplacement(nbDeplacements + 1, intermediateC, parent, robot, pile);
         }
     }
 }
-
