@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd5ad4ee-5612-46c8-b8c1-cc94679e6bc3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeChef/ChefAndRobots$Case.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ChefAndRobots.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/ChefAndRobots.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/ChefAndRobots.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Ex2016.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Ex2016.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Ex2016v2.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Ex2016v2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/FloydTarjan.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/FloydTarjan.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/FloydTarjanV2$Node.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/FloydTarjanV2$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/FloydTarjanV2.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/FloydTarjanV2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/MagicalMountain.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/MagicalMountain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Reverse$1.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Reverse$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Reverse.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Reverse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/TSORT.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/TSORT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/TourMap$1.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/TourMap$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/TourMap$Fly.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/TourMap$Fly.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/TourMap.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/TourMap.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Reverse.java" afterPath="$PROJECT_DIR$/src/Shortest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,14 +18,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChefAndRobots.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChefAndRobots.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChefAndRobots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="120">
               <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="e#0#4052#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shortest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Shortest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FCar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+              <folding>
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +96,8 @@
         <option value="$PROJECT_DIR$/src/FloydTarjanV2.java" />
         <option value="$PROJECT_DIR$/src/Reverse.java" />
         <option value="$PROJECT_DIR$/src/ChefAndRobots.java" />
+        <option value="$PROJECT_DIR$/src/Shortest.java" />
+        <option value="$PROJECT_DIR$/src/FCar.java" />
       </list>
     </option>
   </component>
@@ -117,6 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,10 +146,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,9 +241,9 @@
       <module name="CodeChef" />
       <envs />
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Shortest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Reverse" />
+      <option name="MAIN_CLASS_NAME" value="Shortest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -330,12 +341,12 @@
       <item index="1" class="java.lang.String" itemvalue="Application.Ex2016v2" />
       <item index="2" class="java.lang.String" itemvalue="Application.FloydTarjanv2" />
       <item index="3" class="java.lang.String" itemvalue="Application.ChefAndRobots" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Reverse" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Shortest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.ChefAndRobots" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Reverse" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Shortest" />
         <item index="2" class="java.lang.String" itemvalue="Application.FloydTarjanv2" />
         <item index="3" class="java.lang.String" itemvalue="Application.Ex2016v2" />
         <item index="4" class="java.lang.String" itemvalue="Application.Ex2016" />
@@ -378,15 +389,17 @@
       <workItem from="1509533470335" duration="724000" />
       <workItem from="1509290689986" duration="10338000" />
       <workItem from="1509314090390" duration="21000" />
+      <workItem from="1510427744221" duration="5900000" />
+      <workItem from="1510232968117" duration="23000" />
+      <workItem from="1510254951330" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45425000" />
+    <option name="totallyTimeSpent" value="51373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -400,7 +413,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -432,12 +445,6 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Reverse.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Ex2016v2.java</url>
           <line>62</line>
@@ -446,32 +453,13 @@
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Reverse.java</url>
-          <line>63</line>
-          <properties class="Reverse" method="print">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ChefAndRobots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4052#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+    <entry file="file://$PROJECT_DIR$/src/Shortest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
@@ -777,14 +765,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex2016.java" />
-    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex2016v2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -813,11 +793,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChefAndRobots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="120">
           <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#0#4052#0" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shortest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <folding>
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
           </folding>
         </state>
       </provider>
