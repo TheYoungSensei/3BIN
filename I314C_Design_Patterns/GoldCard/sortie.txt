@@ -1,0 +1,46 @@
+La carte 36333333444456 est une carte Diners Club
+Elle expire le 11/09
+Son titulaire est Michel Debacker
+-----------------------------------------------------------
+La carte 4444555566667779 est une carte Visa
+Elle expire le 12/10
+Son titulaire est Emmeline Leconte
+-----------------------------------------------------------
+Numéro de carte invalide 3633333344445555
+-----------------------------------------------------------
+La carte 373332222255552 est une carte America Express
+Elle expire le 04/11
+Son titulaire est Benoît Dupuis
+-----------------------------------------------------------
+Numéro de carte invalide 37333222225555
+-----------------------------------------------------------
+La carte 6500111122223339 est une carte Discover
+Elle expire le 02/12
+Son titulaire est Stephanie Ferneeuw
+-----------------------------------------------------------
+Numéro de carte invalide 7455123512341234
+-----------------------------------------------------------
+Numéro de carte invalide 444455556666777
+-----------------------------------------------------------
+La carte 343332222255559 est une carte America Express
+Elle expire le 04/11
+Son titulaire est Gregory Seront
+-----------------------------------------------------------
+Numéro de carte invalide 3433322222555556
+-----------------------------------------------------------
+La carte 6011222233334444 est une carte Discover
+Elle expire le 02/11
+Son titulaire est Chantal Decondé
+-----------------------------------------------------------
+Numéro de carte invalide 3522111100008888
+-----------------------------------------------------------
+Numéro de carte invalide 6012444455556666
+-----------------------------------------------------------
+La carte 5100111122223335 est une carte MasterCard
+Elle expire le 09/12
+Son titulaire est Michel Marchand
+-----------------------------------------------------------
+Numéro de carte invalide 5811222233334444
+-----------------------------------------------------------
+Numéro de carte invalide 511133334444555
+-----------------------------------------------------------
