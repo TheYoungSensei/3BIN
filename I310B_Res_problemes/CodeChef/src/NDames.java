@@ -75,8 +75,11 @@ public class NDames {
     }
 
     private static void deuxiemePhase() {
-        int queen = getMyQueen();
-        while(queen != -1) {
+        while(true) {
+            int queen = getMyQueen();
+            if(queen == -1) {
+                break;
+            }
             int alea = hasard(0,9);
             if(alea == 0) {
                 // Completement aleatoire
