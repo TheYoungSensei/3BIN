@@ -2,9 +2,135 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd5ad4ee-5612-46c8-b8c1-cc94679e6bc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/NDames.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/NDames.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scheme01.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/src/JaCoP/globals.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/src/JaCoP/scala/jacop.scala" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/BoolVar.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/BoolVar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/EmptyListener.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/EmptyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$$bslash$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$$bslash$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$unary_$tilde$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$unary_$tilde$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntVar.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntVar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener$$anonfun$executeAfterSolution$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener$$anonfun$executeAfterSolution$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/SetVar.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/SetVar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$$anonfun$listListIntVarToArrayArrayIntVar$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$$anonfun$listListIntVarToArrayArrayIntVar$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$class.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$class.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/network.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/network.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$search_vector$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$search_vector$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$statistics$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$statistics$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/state.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/state.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$cp$Ex1bis_SendMoreMoney$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$cp$Ex1bis_SendMoreMoney$$printSol$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$cp$Ex4_Tunapalooza$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$cp$Ex4_Tunapalooza$$printSol$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$cp$examples$ArchFriends$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$cp$examples$ArchFriends$$printSol$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$cp$examples$Conference$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$cp$examples$Conference$$printSol$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$5.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$5.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$6.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$7.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$8.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2$$anonfun$5.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NDames.java" afterPath="$PROJECT_DIR$/src/NDames.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,16 +165,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NDames.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NDames.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NDames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="555">
+              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5406#5407#0" expanded="true" />
-                <element signature="e#5464#5465#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scheme01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Scheme01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +200,8 @@
       <file leaf-file-name="FCar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -108,6 +242,8 @@
         <option value="$PROJECT_DIR$/src/ChefAndRobots.java" />
         <option value="$PROJECT_DIR$/src/FCar.java" />
         <option value="$PROJECT_DIR$/src/NDames.java" />
+        <option value="$PROJECT_DIR$/src/Scheme02.java" />
+        <option value="$PROJECT_DIR$/src/Scheme01.java" />
       </list>
     </option>
   </component>
@@ -138,6 +274,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,10 +293,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NDames">
+  <component name="RunManager" selected="Application.Scheme01">
     <configuration name="ChefAndRobots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ChefAndRobots" />
@@ -223,20 +359,6 @@
       <module name="CodeChef" />
       <envs />
     </configuration>
-    <configuration name="FloydTarjanv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FloydTarjanv2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CodeChef" />
-      <envs />
-    </configuration>
     <configuration name="NDames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NDames" />
@@ -251,9 +373,23 @@
       <module name="CodeChef" />
       <envs />
     </configuration>
-    <configuration name="Shortest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Scheme01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Shortest" />
+      <option name="MAIN_CLASS_NAME" value="Scheme01" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeChef" />
+      <envs />
+    </configuration>
+    <configuration name="Scheme02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Scheme02" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -347,19 +483,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FloydTarjanv2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ChefAndRobots" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Shortest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FCar" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NDames" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ChefAndRobots" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FCar" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NDames" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Scheme01" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Scheme02" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NDames" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FCar" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ChefAndRobots" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Shortest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FloydTarjanv2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Scheme01" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Scheme02" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NDames" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FCar" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ChefAndRobots" />
       </list>
     </recent_temporary>
   </component>
@@ -406,11 +542,13 @@
       <workItem from="1510818133193" duration="5986000" />
       <workItem from="1510865381582" duration="6235000" />
       <workItem from="1511258715860" duration="2614000" />
+      <workItem from="1511422372118" duration="6965000" />
+      <workItem from="1511470487402" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71071000" />
+    <option name="totallyTimeSpent" value="78068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1366" height="738" extended-state="6" />
@@ -418,7 +556,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -441,6 +578,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -469,26 +607,11 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="56" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FloydTarjan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TSORT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex2016v2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -779,14 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FloydTarjanV2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -797,13 +912,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NDames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="555">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5406#5407#0" expanded="true" />
-            <element signature="e#5464#5465#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scheme02.java" />
+    <entry file="file://$PROJECT_DIR$/src/Scheme01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
