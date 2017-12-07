@@ -1,0 +1,11 @@
+﻿@{ 
+    bool horizontal = ((bool)(ViewContext.RouteData.Values["horizontalLayout"]
+    ?? false));
+}
+<div className="navbar-right">
+    @Html.RouteLink("login", new {
+    controller = "Login",
+    action = "Login" }, new {
+        @class = (horizontal ? "btn btn-default btn-sm" : "btn btn-default navbar-btn")
+    })
+</div>

@@ -22,7 +22,8 @@
             <div class="visible-xs">SPORTS</div>
             <div class="visible-xs">STORE</div>
         </a>
-        @Html.Action("Summary", "Cart");
+        @Html.Action("Summary", "Cart")
+        @Html.Action("Button", "Login")
     </div>
     <div class="visible-xs">
         @Html.Action("Menu", "Nav", new { horizontalLayout = true })
