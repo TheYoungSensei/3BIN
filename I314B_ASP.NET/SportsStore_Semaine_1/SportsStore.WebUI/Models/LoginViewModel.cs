@@ -8,4 +8,4 @@ namespace SportsStore.WebUI.Models
         [Required]
         public string Password { get; set; }
     }
-}
+}

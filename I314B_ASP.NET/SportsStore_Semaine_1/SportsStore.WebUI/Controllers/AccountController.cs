@@ -27,7 +27,7 @@ namespace SportsStore.WebUI.Controllers
                 else
                 {
                     ModelState.AddModelError("", "Incorrect username or password");
-              return View();
+                    return View();
                 }
             }
             else
