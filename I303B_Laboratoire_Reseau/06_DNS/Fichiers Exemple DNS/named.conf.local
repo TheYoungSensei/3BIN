@@ -1,0 +1,4 @@
+zone "reseau.truc.brol.be" {
+	type master;
+	file "/etc/bind/db.reseau.truc.brol.be";
+};

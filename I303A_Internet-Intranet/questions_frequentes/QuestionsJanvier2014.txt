@@ -1,0 +1,64 @@
+[Internet] Question
+Sofyan :
+Expliquer ARP.Expliquer VoIP.Expliquer la différence entre BGP et OSPF. 
+
+Florian :
+Expliquer STPExpliquer ce que sont les codecs et où on peut les retrouver dans le cours (VoIP) + expliquer VoIP+ plusieurs petites questions (TCP, ARP, ...) 
+
+David :
+Expliquer mpls, vpnQuestion sur ospf, voip
+
+Jonathan :
+question tiré: learning bridge.Quand j'avais fini : - Expliquer le multicast- Que connait tu d'ospf- donnes moi le sénario complet où l'on t'appel sur ta ligne sip grace à une ligne pstn classique.
+
+Sachakira
+Il m'a d'abord demandé d'ou venait mon prénom, histoire de faire connaissance avant le coït.
+Sur le petit papier : OSPF.Il a ensuite réfléchi pendant 3min. Il s'est levé et a pris un cable qui trainait. J'ai du dire ce que c'etait comme cable et sa vitesse. C'etait un cable Ethernet (izi) de classe 6a (izi parce que c'est marqué sur le cable) et de vitesse 100M/s.
+
+Il m'a ensuite demandé de calculer le poid des liens en OSPF si on avait ce cable la. Le calcul est : 10^8/bande Passante. Dans ce cas, le poids était de 1
+Autres questions : Qu'est que l'adaptive cut/trough.Qu'est que l'IGMP ? (Je l'ai regardé, il m'a regardé, il a rigolé, j'ai rigolé, il a posé la dernière question)
+Dernière question : Comment les Learning Bridge apprennent ?
+
+Mariam: d'où vient mon nom de famille LOLARP RARP vs DHCP (en quoi DHCP est plus complet)DNS dessiner un schéma avec un ordi, un routeur et un serveurMulticast+IGMPfaire une agrégation avec 3 range d'adresses
+
+Gregos aka le boss
+RIP
+route flap dampening
+
+Miloud :
+MPLS et Vpn. des questions Supp sur VoIP.
+
+Francis:
+Question sur le STP => Parler du STP et transparent bridge
+Il m'a demandé ce que je connaissais le plus: VoIP => il m'a rien demandé dessus
+Il me demande ensuite ce que je connais le moins: le rootage => Il me pose des questions sur BGP
+Et il a fini avec une explication du DHCP
+
+Valentino:
+Question : Expliquer ARPSous-Questions : 1. Si lors d'un ARP Request plusieurs machines envoient un ARP Reply (donc pour une adresse ip on reçoit plusieurs adresse MAC), qu'est-ce que cela signifique?2. Qu'est-ce que DHCP apporte de plus que RARP? Préciser ce que contient justement la configuration IP.3. Créer un réseau avec une machine, un serveur et un routeur et leur donner des adresses IP. Qu'est-ce qui se passe quand je ping de la machine vers le serveur?4. Expliquer le 3 way handshake
+
+Ninon:
+Sujet de base: IPv6
+Expliquer le NAT et Multicast.
+Qu'est-ce que DWCP? VOIP?
+Mon age en binaire * multiplication logique
+
+Samy:
+Expliquer voip. Dire pourquoi le stun et sbc n'est pas la meilleure façon.
+Présentez une meilleure manière sans entrées statiques dans le FW et sans serveurs supplémentaires. Gl hf
+
+Nico :
+Sujet de base : Mpls-VPN
+Après avoir fait un discours pendant 10 min (expliquer tout mpls (que c'est un protocol pour faire du QOS, schéma , Ingress/Egress routeur, PHP, Merging, Shim Header,label, indépendant du procole de la couche 3, Push/Pop/Swap, Vpn niveau 2/3, ...)) il m'a posé des questions supplémentaires sur cela : Qu'est qui y'a dans le shim header ? (Aucune idée, je savais que y'avait 4 champ dont un label mais les 3 autres ...) Il m'a dit que c'etait lié à IP (donc j'ai du refaire le packet ip) (Possède un champ TTL, et un champ expérimentale lié au TOS).
+Et pourquoi est-ce indépendant par rapport à la couche 3 (Car c'est l'ingress routeur qui se base sur les caractéristiques du champ IP, et applique un label par rapport à ces attributs, il suffit donc de changer l'algo de ce premier routeur et tout fonctionne).
+Ensuite questions au pif sur : différence du champ TTL entre un packet DNS et un packet IP , qu'est que ICMP, ...
+
+Plus complet tu meurs, maggle
+Like ·  · 316
+FROM NOTIFICATIONS
+
+Jérémy Van Cauteren
+30 mins
+[AAE] Quelqu'un saurait exactement quelles annotations placer pour effectuer ce point :
+La table PLACES représentant les albums du classement en base de données doit avoir des colonnes NOM, ALBUM_ID et PLACE. Lors du déploiement, songez à vérifier que NOM et PLACE forment la clé primaire de la table
+(c'est tiré de l'exam de janvier 2014)

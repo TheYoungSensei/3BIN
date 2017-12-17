@@ -1,0 +1,114 @@
+Simon > Ceux qui passent samedi 22 devraient tous nous payer une putain de bière pour avoir mené le combat en première ligne ! xD
+		Ou du moins à ceux qui ont pris le temps et la peine de rapporter ci-dessous les questions posées (ainsi qu'un aperçu des réponses).
+		Surtout si ça vous a aidé à réussir ... On le saura samedi prochain ! =)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Stifler >
+~~~~~~~~~
+
+> Question principale : MPLS - VPN
+> Questions subsidiaires :
+	- Le précédant n'a pas pu dire ce qu'était SNMP, je l'ai donc eue ! (Ecouter le précédant, s'il ne sait pas répondre, préparer ce que vous auriez dit)
+	- As-tu pris l'option réseau ? - Non, cerveau n'est pas fait pour. - (Rires), Haha, c'est excellent celle-là, je la note.
+	- Bon, on va finir par du binaire: Exercice d'aggrégation au tableau.
+Finition: (Rires), Monsieur parle à Antoine "J'ai failli lui dire à bientôt... Oh c'était méchant, en plus je ne le pense pas". Qqun peut-il me dire comment l'interpréter ?
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Jaeger >
+~~~~~
+> Question principale : VoIP -> le schéma, les éléments
+> Questions subsidiaires :
+	- Comment on obtient une adresse IP ? => DHCP
+	- Qu'est-ce qu'il y a dans le shim header ? => Label, EXP, S et TTL 
+	- Qu'est ce que le split horizon ? => Mécanisme de RIP où on ne revoie pas les routes reçues par une interface à cette interface pour éviter les boucles.
+	- Qu'est-ce que STP ? => Mécanisme des transparent bridges designé sous forme d'arbre pour éviter les boucles de broadcast par ex. en désactivant certains ports.
+	- Combien de bits y a-t-il dans une adresse IPv6 ? => 128 bits 
+> Il demande aussi au tout début de calculer un nombre en binaire.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Michael >
+~~~~~~~~~
+Question principale : Applications -> développer une peu tout ce qqu'il y avait dans le cours à propos des applications.
+Questions subsidiaires :
+	- parler des protocoles puisque j'en avais parlé dans les application (TCP/UDP).
+	- Quels protocoles fonctionnent avec TCP et quels avec UDP ?
+	- Différences entre TCP/UDP
+	- 3way handshake en tcp : Etablissement d'une connexion en tcp.
+	- Schéma + explication VOIP vu que j'en avais encore parler dans la question principale.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Simon > J'ai bien passé 45 minutes voire 1 heure et j'n'ai pas eu de sujets sensiblement différents ...
+~~~~~~~
+Question principale : ARP (explications + schémas)
+Questions subsidiaires :
+	- Mon schéma prenait tout le tableau, il s'amusait à modifier certains éléments et me demandait alors ce qu'il se passait et comment les devices continuaient à communiquer.
+	- J'ai joué avec le binaire car il m'a demandé de noter une adresse IP "192.168.700.64" xD J'ai mis 2 minutes avant de me rendre compte que "Mais ... mais, mais nan !" -> Impossible de représenter en binaire sur 8 bits un tel nombre évidemment ! Max : 255.
+	- Sans qu'il me le demande, j'avais préparé d'autres schémas (DNS & DHCP) et noté les arguments reçus par le serveur DHCP mais il ne m'a du coup posé aucune question là dessus.
+	- Sur combien de bits est codée une adresse :
+		TCP/UDP ? -> 16 bits
+		IP ? -> 32 bits
+		MAC ? -> 48 bits
+		Soit un ajout de 16 bits d'un niveau supérieur à un niveau inférieur.
+	- Qu'y a-t-il dans un paquet IP ?
+	- Je râle d'avoir été trop crevé pour trouver à la fin ce qu'il me demandait (qui était pourtant facile et évident -_-) :
+		"Comment font deux réseaux différents connectés à un routeur pour communiquer ?" -> Ils passent pas les default gateway !
+		"Où sont-ils et quels sont leur adresse IP ?" -> Cfr. Slide 9 du pdf "06-Routing"
+		
+N.B. : Il m'a semblé sympa avec moi même s'il m'a gardé fort longtemps. Il me demandait même de me calmer (bien que j'n'étais plus stressé) parce qu'j'n'trouvais plus ce qu'il me demandait ... (ça, ça me faisait paniquer) xD
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nana >
+~~~~
+Question principale : TCP/UDP
+Questions subsidiaires :
+	- Aventages/Inconvénients TCP/UDP
+		- padding dans les headers TCP
+		- 3 way handshake
+		- synflood
+	- Ports les plus courants (80, 21, ..)
+	- Packet ethernet
+		- Pourquoi un padding ? (temps de propagation dans le cable réseau -> CSMA/CA)
+	- Expliquer le système DNS
+		- pourquoi avoir son propre système DNS ?
+		- procédure de résolution (récursive)
+		- TTL (temps de validité des records, cache, ..)
+		- Type de records (SOA, A, AAAA)
+		- Records SIP dans le DNS ? (SRV)
+	- Taille des adresses Mac, IPv4, IPv6
+	- Parler de la 3G ?!
+	- Qu'est ce que BGP ?
+	- Qu'est ce qu'un AS ?
+	- Détection de boucles
+		- entre AS
+		- entre switchs (STP)
+	- Parler de SIP
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tom >
+~~~~
+Question principale : OSPF
+		-Dijkstra (rapport a ospf)
+		- que se passe t il quand on a 2 chemins de meme poids?	
+Questions subsidiaires : 
+		
+		-Requete ARP à travers un routeur
+		-DHCP: 
+			-quelles infos il m'envoie?
+		-DNS
+		-comment fonctionne le stun server en voip
+les questions que j' ai noté : tcp/udp
+				avantage ipv6
+				bgp
+				arp
+				voip:
+					-schema registrar et gatekeeper
+					- c'est quoi le POTS ?
+					-prob SIP avec firewall
+				LDP
+				DWMA
+				chim header:
+					- il y a quoi dedans?
+					-c'est quoi le TTL?
+				SNMP
+				4g
+				Loop avoidance dans BGP
+
+conseil : eviter de faire référence à des concepts qu'on ne maitrise pas => comprendre plutot que restituer
+	apparemment ça l'énerve vite quand on s'y connait pas en réseau 
+	Il a posé la question a bcp de gens :"qu'est ce que tu maitrise le plus?" je pense que si on reponds pas bien aux questions il enchaine sur le sujet qu'on maitrise 
+	pour remonter la cote (mais ça voudrais dire que c'est pas un demon sadique ...)

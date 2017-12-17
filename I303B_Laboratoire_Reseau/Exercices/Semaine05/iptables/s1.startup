@@ -1,9 +1,0 @@
-ifconfig eth0 172.16.17.2/24 up
-route add default gw 172.16.17.1
-/etc/init.d/ssh start
-
-iptables -P INPUT DROP
-iptables -P FORWARD DROP
-
-iptables -A INPUT -i lo -j ACCEPT 
-iptables -A FORWARD -i lo -j ACCEPT 

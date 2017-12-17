@@ -1,0 +1,52 @@
+Intranet 2015 FB : 
+
+==> Roland
+NAT
+OSPF vs BGP
+Question IANA et ses réservations des ports
+Cross Optical (ce sont dans la couche physique les cables croisés pour liés deux ordi)
+
+==> Gary
+IPv6 - SNMP - IANA - Cross optical - MAC
+
+==> Gaetan
+VOIP (Fw, Gatekeeper, registrar, 4 solutions au problèmes)
+Principe d'un mail (IMAP, POP, MTA, MTU
+
+==> Loick
+Multi label switching protocol, VPN, ipv6 , 
+combo possible entre VPN et le label switching, est ce que ça supporte ipv6. 
+Quels sont les moyens de résoudre le problème de pas assez d adresse ip, Ping, niveau de VPN et label, byte ipv6, et je crois que c est tout.
+
+==> Coco 
+VoIP (tout le chapitre), qu'est-ce que Optical cross-connect, expliquer Store&Forward.
+
+==> Suli
+Ipv6 -ospf- multicast
+
+==> Matheo
+IPV6, puis il m'a dit " Si on regarde sur ma machine ici, j'ai une adresse IP, comment est-elle attribuée?" -> DHCP. 
+J'ai oublié du parler du DNS à ce moment donc il m'a posé des questions là dessus. 
+Après un peu de bla bla sur les IP, privée - publique? Multicast? Et pour finir un peu de sécurité
+
+==> Jeremy
+DHCP puis on a parlé DNS, citer les applications (ftp, Telnet,...), il m'a demandé d'approfondir SNMP et IPfix, puis un peu de VoIP
+
+==> Sylvain
+MPLS - VPN : Je lui ai fait le schéma avec core edge etc et il m'a demandé :
+- Si ça fonctionne encore en ipv6
+- Si ça fonctionne encore si à l'autre bout du schéma on a une société d'hébergement, des serveurs de site web
+- M'a demandé de faire le lien entre VPN et MPLS, et pourquoi tel protocole était de tel niveau (modèle osi)
+
+==> Maxime 
+-DHCP
+-FW: comment configurer?
+-Expliquer GateWay dans voip
+-Shim header
+
+==> Raphael
+-Learning Bridge (faite gaffe il a changé les slides car il y avait une erreur de celui ci pour le flood émoticône smile , on ne flood pas sur TOUTES les interfaces comme dit dessus mais bien sur les interfaces autres que celui ou on a recu ^^ ca parrait cohérent mais j ai douté a cause des slide et je lui ai dit du coup il a modif émoticône wink )
+-STP
+-Que se passe t il si on met des IPv6 dans ce réseaux de Bridge ( Rien c est pas la meme couche)
+-Donne moi un adresse MAC
+-Parle moi du multi c ast en me donnant un exemple d adresse
