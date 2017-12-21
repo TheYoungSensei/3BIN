@@ -1,0 +1,355 @@
+#!/bin/sh
+
+#  Adapted from FLTR_Firewall.rc made by E. Mulemangano (mulema@meca.ucl.ac.be)
+#   and E. Dupuis (dupuis@gce.ucl.ac.be) on january 2005.
+
+IPTBL="/sbin/iptables"
+IPSAV="/etc/rc.d/init.d/iptables save"
+
+## Source fwbridged configuration.
+if [ ! -f /etc/sysconfig/fwbridge ]; then
+    exit 0
+fi
+
+. /etc/sysconfig/fwbridge
+
+case $1 in
+	debug)
+		IPTBL="echo /sbin/iptables"
+		IPSAV="echo /etc/rc.d/init.d/iptables save"
+esac
+
+PHYSDEV_INT="-m physdev --physdev-in $IF_INT.$VL_INT"
+PHYSDEV_EXT="-m physdev --physdev-in $IF_EXT.$VL_EXT"
+
+##############################################################################
+# Clean currently loaded chains and set strict default policy
+##############################################################################
+  $IPTBL -F   # Flush chains
+  $IPTBL -X   # Remove user defined chains
+  $IPTBL -Z   # Zero the counters
+
+  $IPTBL -P INPUT   DROP
+  $IPTBL -P OUTPUT  DROP
+  $IPTBL -P FORWARD DROP
+
+################################################################################
+# NETWORK filtering "end" tables
+################################################################################
+  $IPTBL -N NET_LOGACCEPT
+  $IPTBL -A NET_LOGACCEPT -j LOG --log-prefix "NET_ACCEPT "
+  $IPTBL -A NET_LOGACCEPT -j ACCEPT
+
+  $IPTBL -N NET_LOGDROP
+  $IPTBL -A NET_LOGDROP   -j LOG --log-prefix "NET_DROP "
+  $IPTBL -A NET_LOGDROP   -j DROP
+
+  $IPTBL -N PORT_LOGDROP
+  $IPTBL -A PORT_LOGDROP  -j LOG --log-prefix "PORT_DROP "
+  $IPTBL -A PORT_LOGDROP  -j DROP
+
+  $IPTBL -N SPOOF_LOGDROP
+  $IPTBL -A SPOOF_LOGDROP -j LOG --log-prefix "SPOOF_DROP "
+  $IPTBL -A SPOOF_LOGDROP -j DROP
+
+  $IPTBL -N NET_LOGDEBUG
+  $IPTBL -A NET_LOGDEBUG -j LOG --log-prefix "NET_DEBUG  "
+  $IPTBL -A NET_LOGDEBUG -j ACCEPT
+
+################################################################################
+# PORT filtering tables
+################################################################################
+  $IPTBL -N DENIED_TCP
+  for port in $DENIED_PORTS_TCP; do
+	$IPTBL -A DENIED_TCP -p tcp --dport $port -j PORT_LOGDROP
+  done
+
+  $IPTBL -N DENIED_UDP
+  for port in $DENIED_PORTS_UDP; do
+	$IPTBL -A DENIED_UDP -p tcp --dport $port -j PORT_LOGDROP
+  done
+
+################################################################################
+# INBOUND filtering tables
+################################################################################
+  $IPTBL -N NETWORK_TO		# Inbound  rules table
+
+  for srv in $FTP_SERVERS; do
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 21 -j NET_LOGACCEPT
+  done
+
+  for srv in $WEB_SERVERS; do
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 80 -j NET_LOGACCEPT
+  done
+
+  for srv in $PROXY_SERVERS; do
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 8080 -j NET_LOGACCEPT
+  done
+
+  for srv in $MAIL_SERVERS; do
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 110 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 143 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 995 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 993 -j NET_LOGACCEPT
+  done
+	
+  for srv in $SMTP_SERVERS; do
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport  25 -j NET_LOGACCEPT
+  done
+
+# Accept dns replies from authorized server list
+  for addr in $DNS_UCL_SERVERS; do
+	$IPTBL -A NETWORK_TO -s $addr -p udp --sport 53 -j NET_LOGACCEPT
+  done
+
+  for srv in $DNS_NET_SERVERS; do
+	$IPTBL -A NETWORK_TO -s $UCLNET -d $srv -p udp --sport 53 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $UCLNET -d $srv -p tcp --sport 53 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $UCLNET -d $srv -p udp --dport 53 -j NET_LOGACCEPT
+  done
+
+  for srv in $SMB_SERVERS; do
+	for h in $SMB_CLIENTS; do
+	  $IPTBL -A NETWORK_TO -s $h -d $srv -p tcp --dport     135 -j NET_LOGACCEPT
+	  $IPTBL -A NETWORK_TO -s $h -d $srv -p tcp --dport 137:139 -j NET_LOGACCEPT
+	  $IPTBL -A NETWORK_TO -s $h -d $srv -p tcp --dport     445 -j NET_LOGACCEPT
+	  $IPTBL -A NETWORK_TO -s $h -d $srv -p tcp --dport    1026 -j NET_LOGACCEPT
+	  $IPTBL -A NETWORK_TO -s $h -d $srv -p udp --dport 137:139 -j NET_LOGACCEPT
+	done
+  done
+    
+  for srv in $WDC_SERVERS; do
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport  88 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p udp --dport  88 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p udp --dport 636 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p udp --dport 379 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p tcp --dport 389 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -d $srv -p udp --dport 389 -j NET_LOGACCEPT
+  done
+
+  for pr in $SAP_PRINTERS; do
+	$IPTBL -A NETWORK_TO -s $SAP_ADDR -d $pr -p udp --dport  515 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $SAP_ADDR -d $pr -p tcp --dport  515 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $SAP_ADDR -d $pr -p udp --dport 9100 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $SAP_ADDR -d $pr -p tcp --dport 9100 -j NET_LOGACCEPT
+  done
+
+  for pr in $XAFAX_PRINTERS; do
+	$IPTBL -A NETWORK_TO -s $XAFAX_ADDR -d $pr -p udp --dport  161 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $XAFAX_ADDR -d $pr -p udp --dport  515 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $XAFAX_ADDR -d $pr -p tcp --dport  515 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $XAFAX_ADDR -d $pr -p tcp --dport 5111 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $XAFAX_ADDR -d $pr -p tcp --dport 5112 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $XAFAX_ADDR -d $pr -p udp --dport 9100 -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s $XAFAX_ADDR -d $pr -p tcp --dport 9100 -j NET_LOGACCEPT
+  done
+
+  SERV_LANDESK=192.168.253.217
+  CONS_LANDESK="192.168.254.8"
+  for serveur in $SERV_LANDESK; do 
+	for tcplandeskports in 139 1332 1039 1044 5007 9594 9595 12174 12176 ; do
+        $IPTBL -A NETWORK_TO -s $serveur -p tcp -m tcp --dport $tcplandeskports -j NET_LOGACCEPT
+   	done
+  done
+
+  for serveur in $SERV_LANDESK; do 
+   	for udplandeskports in 9595 38293 ; do
+        $IPTBL -A NETWORK_TO -s $serveur -p udp -m udp --dport $udplandeskports -j NET_LOGACCEPT
+   	done
+  done
+
+  for console in $CONS_LANDESK; do 
+   	for tcplandeskports in 1761 9535 ; do
+        $IPTBL -A NETWORK_TO -s $console -p tcp -m tcp --dport $tcplandeskports -j NET_LOGACCEPT
+   	done
+  done
+
+  for console in $CONS_LANDESK; do
+   	for udplandeskports in 1761 9595 38293 ; do
+        $IPTBL -A NETWORK_TO -s $console -p udp -m udp --dport $udplandeskports -j NET_LOGACCEPT
+   	done
+  done
+
+  ORCH_PORTS="8083"
+  for port in ${ORCH_PORTS}; do
+	$IPTBL -A NETWORK_TO -s 130.104.131.18 -p tcp --dport ${port} -j NET_LOGACCEPT
+	$IPTBL -A NETWORK_TO -s 130.104.131.18 -p udp --dport ${port} -j NET_LOGACCEPT
+  done
+
+  for addr in $SWIVELS; do
+	$IPTBL -A NETWORK_TO -s $SWIVEL_ADDR -d $addr -p tcp --dport 2000 -j NET_LOGACCEPT
+  done
+
+  $IPTBL -A NETWORK_TO -s $BACKUPPC_ADDR -d $NETWORK_ADDR -p tcp --dport  139 -j NET_LOGACCEPT
+  $IPTBL -A NETWORK_TO -s $BACKUPPC_ADDR -d $NETWORK_ADDR -p tcp --dport  445 -j NET_LOGACCEPT
+
+# Accept ssh connections from authorized host list
+  for addr in $SSH_CLIENTS; do
+	$IPTBL -A NETWORK_TO -s $addr -p tcp --dport 22 -j NET_LOGACCEPT
+  done
+
+# Drop/Log all remaining traffic
+	$IPTBL -A NETWORK_TO -j NET_LOGDROP
+
+################################################################################
+# OUTBOUND filtering tables
+################################################################################
+  $IPTBL -N NETWORK_FROM	# Outbound rules table
+
+# Allow outbound traffic to BRW-13766-MCAFEE (ftp update)
+  $IPTBL -A NETWORK_FROM -p tcp -d 216.143.70.0/23 -j ACCEPT
+
+# Filter out denied ports
+  $IPTBL -A NETWORK_FROM -p tcp -j DENIED_TCP
+  $IPTBL -A NETWORK_FROM -p udp -j DENIED_UDP
+	
+# Accept everything else
+  $IPTBL -A NETWORK_FROM -j ACCEPT
+
+################################################################################
+# FORWARD Table
+################################################################################
+# Drop invalid packets
+  $IPTBL -A FORWARD -m state --state INVALID -j DROP
+
+# Drop IGMP packets (experimental)
+  $IPTBL -A FORWARD --protocol 2 -j DROP
+
+# Accept related/established packets
+  $IPTBL -A FORWARD -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+# Accept packets from router
+  $IPTBL -A FORWARD -s $ROUTER_ADDR -j ACCEPT
+
+# Accepts ethernet/ip broadcasts (e.g. for dhcp requests)
+  $IPTBL -A FORWARD -d 255.255.255.255 -j NET_LOGACCEPT
+
+# Anti-spoofing protections
+  $IPTBL -A FORWARD $PHYSDEV_EXT   -s $NETWORK_ADDR -j SPOOF_LOGDROP
+  $IPTBL -A FORWARD $PHYSDEV_INT ! -s $NETWORK_ADDR -j SPOOF_LOGDROP
+
+# White list
+  for addr in $WHITELIST; do
+	$IPTBL -A FORWARD -s $addr -j NET_LOGACCEPT
+	$IPTBL -A FORWARD -d $addr -j NET_LOGACCEPT
+  done
+
+# Black list
+  for addr in $BLACKLIST; do
+	$IPTBL -A FORWARD -s $addr -j NET_LOGDROP
+	$IPTBL -A FORWARD -d $addr -j NET_LOGDROP
+  done
+
+# Accept/limit icmp packets
+  $IPTBL -A FORWARD $PHYSDEV_EXT --protocol icmp -m limit $LIMIT -j ACCEPT
+  $IPTBL -A FORWARD $PHYSDEV_INT --protocol icmp -m limit $LIMIT -j ACCEPT
+
+# Multicast handling
+  $IPTBL -A FORWARD -d $IP_MULTICAST       -j ACCEPT
+  $IPTBL -A FORWARD -d $IP_MULTICAST_LOCAL -j ACCEPT
+
+# Accept WinRTP traffic
+  $IPTBL -A FORWARD -p udp --sport 5004:5005 -j ACCEPT
+
+# Accept broadcasts
+  $IPTBL -A FORWARD -d $BROADCAST_ADDR -j ACCEPT
+
+# Switching of network traffic to specific new tables
+  $IPTBL -A FORWARD $PHYSDEV_EXT -d $NETWORK_ADDR -p tcp --syn -j NETWORK_TO
+  $IPTBL -A FORWARD $PHYSDEV_EXT -d $NETWORK_ADDR -p udp       -j NETWORK_TO
+
+  $IPTBL -A FORWARD $PHYSDEV_INT -s $NETWORK_ADDR -p tcp --syn -j NETWORK_FROM
+  $IPTBL -A FORWARD $PHYSDEV_INT -s $NETWORK_ADDR -p udp       -j NETWORK_FROM
+
+# Drop/Log all remaining traffic
+  $IPTBL -A FORWARD -j LOG --log-prefix "END_FORWARD "
+  $IPTBL -A FORWARD -j DROP
+
+################################################################################
+# INPUT Table
+################################################################################
+# Drop invalid packets
+  $IPTBL -A INPUT -m state --state INVALID -j DROP
+
+# Accept localhost packets
+  $IPTBL -A INPUT -i lo -j ACCEPT
+
+# Accept related/established packets
+  $IPTBL -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+# Accept packets from router
+  $IPTBL -A INPUT -s $ROUTER_ADDR -j ACCEPT
+
+# Accept broadcasts
+  $IPTBL -A INPUT -d $BROADCAST_ADDR -j ACCEPT
+
+# Accept/limit icmp packets
+  $IPTBL -A INPUT --protocol icmp -m limit $LIMIT -j ACCEPT
+
+# Accept ssh connections from authorized host list
+  for addr in $SSH_CLIENTS; do
+	$IPTBL -A INPUT -s $addr -p tcp --dport 22 -j ACCEPT
+  done
+
+# Accept dns replies from authorized server list
+  for addr in $DNS_UCL_SERVERS; do
+	$IPTBL -A INPUT -s $addr -p udp --sport 53 -j ACCEPT
+  done
+
+# Drop/Log all remaining traffic
+  $IPTBL -A INPUT -j LOG --log-prefix "END_INPUT "
+  $IPTBL -A INPUT -j DROP
+
+################################################################################
+# OUTPUT Table
+################################################################################
+# Drop invalid packets
+  $IPTBL -A OUTPUT -m state --state INVALID -j DROP
+
+# Accept localhost packets
+  $IPTBL -A OUTPUT -o lo -j ACCEPT
+
+# Accept related/established packets
+  $IPTBL -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+# Accept packets from router
+  $IPTBL -A OUTPUT -d $ROUTER_ADDR -j ACCEPT
+
+# Accept/limit icmp packets
+  $IPTBL -A OUTPUT --protocol icmp -m limit $LIMIT -j ACCEPT
+
+# Accept dns request to authorized server list
+  for addr in $DNS_UCL_SERVERS; do
+    $IPTBL -A OUTPUT -d $addr -p udp --dport 53 -j ACCEPT
+  done
+
+# Accept messages to syslog server
+  $IPTBL -A OUTPUT -d $SYSLOG_ADDR -p udp --dport 514 -j ACCEPT
+
+# Accept mails to known smtp relays
+  for srv in $SMTP_SERVERS; do
+    $IPTBL -A OUTPUT -d $srv -p tcp --dport 25 -j ACCEPT
+  done
+
+# Accept ntp messages to authorized server list
+  for addr in $NTP_SERVERS; do
+    $IPTBL -A OUTPUT -d $addr -p udp --sport 123 --dport 123 -j ACCEPT
+  done
+
+# Accept messages to Red Hat Network server (https or via proxy)
+  $IPTBL -A OUTPUT -p tcp --dport  443 -j ACCEPT
+  $IPTBL -A OUTPUT -p tcp --dport 3128 -j ACCEPT
+  $IPTBL -A OUTPUT -p tcp --dport 8080 -j ACCEPT
+
+# Drop/Log all remaining traffic
+  $IPTBL -A OUTPUT -j LOG --log-prefix "END_OUTPUT "
+  $IPTBL -A OUTPUT -j DROP
+
+# Save configuration to /etc/sysconfig/iptables
+
+  $IPSAV
+# echo "Warning: configuration not saved to /etc/sysconfig/iptables !"
+
+  exit
+
+# ex: ts=4

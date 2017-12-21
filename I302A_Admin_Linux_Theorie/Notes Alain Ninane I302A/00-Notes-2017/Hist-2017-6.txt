@@ -1,0 +1,544 @@
+ls -l
+passwd
+ls -l
+ls -la
+mkdir .ssh
+cd .ssh
+vi authorized_keys
+ls -l
+chmod 600
+chmod 600 authorized_keys 
+chmod 700 .
+ssh-keygen -t rsa
+ls -l
+d .ssh
+ls -l
+cd .ssh
+ls -l
+cat id_rsa.pub 
+cat id_rsa
+rm id_rsa*
+ls -l
+exit
+vi /etc/hosts
+exit
+localectl 
+localectl  list-keymaps
+localectl  set-keymaps be=latin1
+localectl  set-keymaps be-latin1
+localectl  set-keymas be-latin1
+localectl  set-keymap be-latin1
+halt
+cd /media
+ls -l
+mkdir cdrom
+mount /dev/cdrom /media/cdrom/
+df
+cd /media/cdrom/
+ls -l
+cd Packages/
+ls -l ntp*
+rpm -ivh ntp-4.2.6p5-25.el7.centos.x86_64.rpm 
+rpm -q -a
+rpm -q -a | grep python
+rpm -q -a | grep gcc
+ls -l ntp*
+rpm -q -l ntp-4.2.6p5-25.el7.centos.x86_64.rpm
+rpm -q -l python
+ls -l /in/ls
+ls -l /bin/ls
+ls -l --color=none /bin/ls
+rpm -q -f /bin/ls
+rpm -V coreutils
+cp /bin/ls /bin/ls.bak
+touch /bin/ls
+ls -l /bin/ls
+rpm -V coreutils
+echo blabla >> /bin/ls
+/bin/ls
+rpm -V coreutils
+ifconfig 
+ping 10.0.0.32
+halt
+rpm -q -l ntp-4.2.6p5-25.el7.centos.x86_64.rpm
+ls -l
+cd /media/
+ls -l
+cd cdrom/
+ls- l
+ls l
+ls -l
+mount /dev/sr0 /media/cdrom/
+ls -l
+cd ..
+ls -l
+cd cdrom/
+ls -l
+cd Packages/
+ls -l
+ls -l ntp*
+rpm -ivh ntp-4.2.6p5-25.el7.centos.x86_64.rpm 
+pwd
+ls -l
+rpm -ivh ntp-4.2.6p5-25.el7.centos.x86_64.rpm 
+cd /etc/yum.repos.d/
+ls -l
+vi CentOS-Base.repo
+yum-config-manager 
+yum-config-manager | more -c
+yum-config-manager --disable \*
+yum-config-manager | more 
+yum-config-manager --enable c7-media
+yum install ntp
+cd /etc
+ls -l
+vi ntp.conf
+cp -p ntp.conf ntp.conf.bak
+ls -l ntp.conf ntp.conf.ba
+ls -l ntp.conf ntp.conf.bak
+vi ntp.conf
+ls -l ntp.conf ntp.conf.bak
+systemctl star ntp
+systemctl start ntp
+systemctl start ntpd
+diff ntp.conf.bak ntp
+diff ntp.conf.bak ntp.conf
+systemctl enable ntpd
+systemctl status ntpd
+vi /usr/lib/systemd/system/ntpd.service
+cd
+ls -l
+cat anaconda-ks.cfg 
+cat /etc/passwd
+getenforce
+ls -l
+fdisk -l /dev/sda
+fdisk -l /dev/sdb
+fdisk /dev/sdb
+fdisk -l /dev/sdb
+mke2fs -t ext4 /dev/sdb1
+mkdir -p /disks/data
+mount /dev/sdb1 /disks/data/
+df
+halt
+exit
+df
+fdisk /dev/sdb
+fdisk /dev/sda
+cat /etc/fstab 
+mount
+halt
+ls -l
+pwd
+iptables -L -v -n
+iptables -L -v -n | grep 80
+systemctl status httpd
+rpm -q -a | grep ht
+yum install httpd
+systemctl status httpd
+systemctl status http
+df
+cd /media/
+ls -l
+cd cdrom/
+ls -
+ls -l
+df
+grep media ~/.bash_history 
+mount /dev/cdrom /media/cdrom/
+yum install httpd
+systemctl status http
+systemctl status httpd
+cd
+÷pwd
+pwd
+cd /etc/httpd/
+cd conf.d
+ls -l
+vi ipl.conf
+getenforce 
+df
+cat /etc/fstab 
+vi ~/.bash_history 
+fdisk -l /dev/sdb
+cd /etc/httpd/
+ls -l
+cd conf
+ls -l
+diff httpd.conf.bak httpd.conf
+cd ../conf.d
+ls -l
+vi ipl.conf 
+vi /etc/sysconfig/selinux 
+reboot
+journalctl -f
+vi /etc/hosts
+journalctl -f
+vi /etc/samba/smb.conf.example 
+cd /disks/data/
+ls -l
+vigr
+s
+exit
+smbpasswd -a azote
+vigr
+exit
+iptables -L -v -n
+systemctl status firewall
+systemctl status firewalld
+systemctl stop firewalld
+systemctl status firewalld
+ps auxw | grep -i firew
+rpm -q -a | grep -i smb
+yum install smb
+yum install smbd
+yum install samba
+cd /etc/samba/
+ls -l
+vi smb.conf
+cd /disks/
+cd data/
+ls -l
+cd www1
+ls -l
+cd ..
+ls -l
+pwd
+cd ..
+ls -l
+vigr
+pwd
+chgrp -R wwwpub data
+ls -l
+cd data/
+ls -l
+chmod 775 www?
+ls -l www?
+chmod 664 www*/*
+ls -l www?
+vipw
+ls -l
+cd
+ls -l
+tar zxvf 2-2-users-local.tar.gz 
+cd users-local/
+ls -l
+./ipl-useradd-batch.sh 
+vipw
+cd
+smbpasswd 
+vipw
+smbpasswd -a carbone
+smbpasswd -a titane
+ls -l
+cd
+cd /etc/samba/
+ls -l
+cp -p smb.conf smb.conf.bak
+vi smb.conf
+systemctl start smbd
+systemctl start smb
+systemctl status smb
+journalctl -f
+vi /etc/samba/smb.conf
+vi /etc/samba/smb.conf.example 
+journalctl -f
+lsof -i TCP
+lsof -i TCP -P
+vi /etc/samba/smb.conf
+systemctl restart smb
+vi /etc/samba/smb.conf
+cd ~carbone/
+ls -l
+vi /etc/samba/smb.conf
+systemctl restart smb
+cd /disks/data/
+ls -l
+cd www1
+ls -l
+chgrp +s .
+chmod g+s .
+ls -l
+ls -ld .
+ls -l
+halt
+systemctl start httpd
+mount /dev/sdb1 /disks/data/
+systemctl start httpd
+nc www1 80
+mount /dev/cdrom /media/cdrom/
+yum install netcat
+yum install nc
+nc www1 80
+iptables -l- -v -n
+iptables -l -v -n
+iptables -L -v -n
+systemctl stop iptables
+iptables -L -v -n
+systemctl stop firewalld
+pwd
+cd /disks/data/
+ls -l
+cd www
+cd www2
+ls -l
+vi index.html 
+cd ../www1/
+ls -l
+vi index.html 
+ifconfig 
+ping 130.104.1.1
+exit
+ping 10.0.0.32
+systemctl start smb
+vi /etc/fstab
+ls -l
+netstat -rn
+route del default gw 10.0.0.1
+netstat -rn
+route add default gw 10.0.0.32
+netstat -rn
+ping 10.0.0.32
+systemctl status firewall
+systemctl status firewalld
+systemctl stop firewalld
+nmap -sS -O 10.0.0.192
+systemctl status smb
+systemctl restart smb
+lsof -iTCP
+lsof -iTCP -P
+df
+journalctl -f
+iptables -L -v -n
+vi .bash_history 
+lsof -iTCP -P
+lsof -iTCP -P -N
+lsof -iTCP -P -n
+systemctl sto smb
+systemctl stop smb
+lsof -iTCP -P -n
+systemctl start smb
+lsof -iTCP -P -n
+cd /var/log
+ls -l
+cd sa
+ cd ../samba/
+ls -l
+ls -rtl
+cat log.smbd 
+ls -rtl
+vi /etc/samba/smb.conf
+cd cores/
+ls -l
+cd smbd/
+ls -l
+cd ../..
+ls -l
+find . -type d -ls
+vi /etc/samba/smb.conf
+testparm
+lsif -iTCP -nP
+lsof -iTCP -nP
+tcpdump -ieth0
+kill %1
+tcpdump -n -i eth0 port not 22
+pwd
+cd /etc/samba/
+vi smb.conf
+systemctl restart smb
+testparm
+cd /var/log/samba/
+ls -l
+tail -f log.smbd 
+systemctl status smb
+tail -f log.smbd 
+ls -rtl
+cd
+ls -l
+cd /etc/samba/
+vi smb.conf
+systemctl restart smb
+ls -rtl /var/log/samba/
+tail -f /var/log/samba/smbd.log 
+vi /var/log/samba/smbd.log
+tail -f /var/log/samba/smbd.log 
+watch lsof -iTCP -nP
+vi /etc/hosts
+watch lsof -iTCP -nP
+tcpdump -n -i eth0 port 445
+systemctl disable firewalld
+systemctl enable smb
+reboot
+ifconfig 
+netstat -rn
+watch lsof -iTCP -nP
+cd /etc/samba
+ls -l
+vi smb.conf
+lsof -iTCP -nP
+lsof -iUDP -nP
+systemctl status nmbd
+systemctl status nmb
+systemctl start nmb
+systemctl status nmb
+lsof -iTCP -nP
+yum install smbclient
+yum whatprovides smbclien
+yum install samba-client
+smbcontrol 
+smbclient
+man nmcli
+exit
+sudo su - nina
+rpm -q  -a| | grep -i smb
+rpm -q  -a | grep -i smb
+df
+vi /etc/fstab
+df
+cd /disks
+ls -l
+cd data/
+ls -l
+cd
+mount /dev/sdb1 /disks/data/
+df
+cd /disks/data/www1
+ls -l
+cd
+systemctl restart smb
+watch lsof -iTCP -nP
+df
+cd /disks/data/
+ls -l
+cd /disks/home/
+ls -l
+df
+vi /etc/fstab 
+cd /
+ls -l
+cd home/
+ls -l
+cd /disks/home/
+df -h .
+cd /home
+df -h .
+cd
+umount /home
+vi /etc/fstab
+mount -o remount /home/
+mount -o remount /home
+umount /disks/data
+mount /disks/data
+vi /etc/fstab
+man quotaon
+mount
+vi /etc/fstab
+mount /dev/sdb1
+df
+mount
+quotaon -a -v
+touch /disks/data/aquota.group /disks/data/aquota.user
+quotaon -a -v
+ls -l /disks/data/aquota.user
+man quotaon
+touch /disks/data/quota.group /disks/data/quota.user
+quotaon -a -v
+ls -l /disks/data/*
+rm /disks/data/*quota
+rm /disks/data/*quota*
+quotacheck
+quotacheck -a
+ls -l /disks/data/
+quotacheck -ag
+quotaon -a
+repquota -a
+edquota -u carbone
+edquota -p carbone titane
+edquota -p carbone cuivre
+cat /etc/passwd
+edquota -p carbone azote
+df
+repquota -a
+cd /disks/data/
+cd /home
+ls -l
+cd
+cd /home
+ls -l
+cd /disks/home/
+ls -l
+mount /home
+ls -l
+cd /home/
+ls -l
+cd /etc/httpd/
+ls -l
+find . -name \*.bak -ls
+cd conf
+ls -l
+diff  httpd.conf httpd.conf.bak
+scp httpd.conf httpd.conf.bak nina@10.0.0.32:Desktop
+cd ..
+ls -l
+cd conf.d
+ls -l
+scp ipl.conf nina@10.0.0.32:Desktop
+cd /etc/samba
+ls -l
+cat lmhosts 
+scp smb.conf smb.conf.bak nina@10.0.0.32:Desktop
+lsof -iTCP -Pn
+df
+cd /var/log
+cd httpd/
+ls -rtl
+cat error_log 
+setenforce permissive
+journalctl -f
+cd /etc/httpd/
+ls -l
+cd conf
+ls -l
+vi httpd.conf
+diff httpd.conf.bak httpd.conf
+diff -C 4 httpd.conf.bak httpd.conf
+cd ../
+ls -l
+cd conf.d
+ls -l
+vi ipl.conf
+ls -l
+getenforce
+systemctl status httpd
+cd /disks/data/
+ls -l
+cd www1
+ls -l
+cat index.html 
+cd ../www2
+ls -l
+vi index.html 
+exit
+cd /etc/samba/
+ls -l
+smbpasswd -a carbone
+ls -l
+man httasswd
+man httpasswd
+man smbpasswd
+ls -l
+vi smb.conf
+cd /disks/data/
+ls -l
+cd www1
+ls -l
+cd
+su - carbone
+halt
+systemctl start http
+systemctl start httpd
+systemctl status  httpd
+systemctl stop  httpd
+systemctl status  httpd
+systemctl start httpd
+systemctl status  httpd
