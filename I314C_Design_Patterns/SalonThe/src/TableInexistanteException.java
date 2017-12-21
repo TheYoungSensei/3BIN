@@ -1,0 +1,3 @@
+class TableInexistanteException extends RuntimeException {
+
+}

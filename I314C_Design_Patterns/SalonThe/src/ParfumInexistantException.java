@@ -1,0 +1,2 @@
+class ParfumInexistantException extends RuntimeException {
+}

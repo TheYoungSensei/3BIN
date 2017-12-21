@@ -4,24 +4,18 @@ public class Scheme01 {
 
     private static java.util.Scanner scanner = new java.util.Scanner(System.in);
 
-    private static int source;
-    private static int destination;
-
     private static Town towns[];
 
     private static TreeSet<Integer> f;
 
-    private static Comparator comparator = new Comparator<Integer>() {
+    private static Comparator<Integer> comparator = new Comparator<Integer>() {
         @Override
         public int compare(Integer i1, Integer i2) {
-            int temp = towns[i1].cost - towns[i2].cost;
-            if(temp != 0)
-                return temp;
-            return i1 - i2;
+            if (i1.equals(i2) || towns[i1].cost == towns[i2].cost)
+                return i1 - i2;
+            return towns[i1].cost - towns[i2].cost;
         }
     };
-
-    private static boolean[] rf;
 
     public static void main(String[] args) {
         int nbTestsCases = scanner.nextInt();
@@ -29,7 +23,7 @@ public class Scheme01 {
             int nbTowns = scanner.nextInt();
             towns = new Town[nbTowns];
             f = new TreeSet<Integer>(comparator);
-            rf = new boolean[nbTowns];
+            boolean[] rf = new boolean[nbTowns];
             for(int j = 0; j < nbTowns; j++) {
                 towns[j] = new Town(j);
             }
@@ -43,13 +37,13 @@ public class Scheme01 {
             for(int j = 0; j < nbTowns; j++) {
                 towns[j].pointsDecreased = scanner.nextInt();
             }
-            source = scanner.nextInt() - 1;
-            destination = scanner.nextInt() - 1;
-            f.add(source);
+            int source1 = scanner.nextInt() - 1;
+            int destination1 = scanner.nextInt() - 1;
+            f.add(source1);
             boolean found = false;
             while(!f.isEmpty() && !found) {
                 int town = f.pollFirst();
-                if(town == destination){
+                if(town == destination1){
                     found = true;
                 }
                 rf[town] = true;
@@ -59,7 +53,7 @@ public class Scheme01 {
                 }
             }
             if(found) {
-                System.out.println(towns[destination].cost * 10);
+                System.out.println(towns[destination1].cost * 10);
             } else {
                 System.out.println(-1);
             }
@@ -113,6 +107,24 @@ public class Scheme01 {
             this.source = souce;
             this.destination = destination;
             this.distance = distance;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+
+            Road road = (Road) o;
+
+            return source == road.source && destination == road.destination && distance == road.distance;
+        }
+
+        @Override
+        public int hashCode() {
+            int result = source;
+            result = 31 * result + destination;
+            result = 31 * result + distance;
+            return result;
         }
     }
 }
