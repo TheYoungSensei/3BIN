@@ -1,48 +1,49 @@
-/*
-2
-4 4 1 1
-0 1 1 0
-0 1 1 0
-0 1 1 0
-0 0 0 0
-4 4 1 1
-0 1 1 0
-0 1 1 0
-0 1 1 0
-1 0 0 1
- */
-
-import java.util.ArrayDeque;
-import java.util.Arrays;
-
 public class ChefAndRobots {
 
     private static java.util.Scanner scanner = new java.util.Scanner(System.in);
+
     private static int n;
+
     private static int m;
-    private static int k[] = new int[2];
 
-    private static int couts[][][];
+    private static int k1;
+    private static int k2;
+    private static int k;
+
     private static int map[][];
-    private static boolean rf[][][];
 
-    private static int ROBOT1 = 0;
-    private static int ROBOT2 = 1;
-    private static int LIGNE = 0;
-    private static int COLONNE = 1;
+    private static int couts1[][];
+    private static int couts2[][];
+    private static int couts[][];
+
+    private static int rf1[][];
+    private static int rf2[][];
+    private static int rf[][];
+
+    private static int[][] f1;
+    private static int h1;
+    private static int t1;
+
+    private static int[][] f2;
+    private static int h2;
+    private static int t2;
 
     public static void main(String[] args) {
         int nbCases = scanner.nextInt();
-        for(int i = 0; i < nbCases; i++) {
+        for (int i = 0; i < nbCases; i++) {
             init();
-            int depart[] = new int[2];
-            depart[LIGNE] = 0;
-            depart[COLONNE] = 0;
-            doIt(depart, ROBOT1);
-            depart[LIGNE] = 0;
-            depart[COLONNE] = m - 1;
-            doIt(depart, ROBOT2);
-            if(minDeplacements != Integer.MAX_VALUE) {
+
+            k = k1;
+            couts = couts1;
+            rf = rf1;
+            doIt(0, 0);
+
+            k = k2;
+            couts = couts2;
+            rf = rf2;
+            doIt(0, m - 1);
+
+            if (minDeplacements != Integer.MAX_VALUE) {
                 System.out.println(minDeplacements);
             } else {
                 System.out.println(-1);
@@ -53,66 +54,108 @@ public class ChefAndRobots {
     private static void init() {
         n = scanner.nextInt();
         m = scanner.nextInt();
-        k[ROBOT1] = scanner.nextInt();
-        k[ROBOT2] = scanner.nextInt();
-        couts = new int[n][m][2];
-        rf = new boolean[n][m][2];
+
+        k1 = scanner.nextInt();
+        k2 = scanner.nextInt();
+
+        couts1 = new int[n][m];
+        couts2 = new int[n][m];
+
+        rf1 = new int[n][m];
+        rf2 = new int[n][m];
+
+        f1 = new int[n * m][2];
+        f2 = new int[n * m][3];
+
         map = new int[n][m];
+
         minDeplacements = Integer.MAX_VALUE;
-        for(int i = 0; i < n; i++) {
-            for(int j = 0; j < m; j++) {
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 map[i][j] = scanner.nextInt();
-                couts[i][j][ROBOT1] = Integer.MAX_VALUE;
-                couts[i][j][ROBOT2] = Integer.MAX_VALUE;
+                couts1[i][j] = Integer.MAX_VALUE;
+                couts2[i][j] = Integer.MAX_VALUE;
             }
         }
     }
 
-    private static void doIt(int[] depart, int robot) {
-        ArrayDeque<int[]> pile = new ArrayDeque<>();
-        pile.addLast(depart);
-        couts[depart[LIGNE]][depart[COLONNE]][robot] = 0;
-        rf[depart[LIGNE]][depart[COLONNE]][robot] = true;
-        while(!pile.isEmpty()) {
-            int c[] = pile.removeFirst();
-            deplacement(0, c, c, robot, pile);
-        }
+    private static void doIt(int sx, int sy) {
+        h1 = 0;
+        t1 = 0;
+        visiteState(sx, sy, 0, 1);
 
+        int tour = 2;
+        while (h1 != t1) {
+            int x = f1[h1][0];
+            int y = f1[h1][1];
+            h1++;
+
+            f2[0][0] = x;
+            f2[0][1] = y;
+            f2[0][2] = k;
+            h2 = 0;
+            t2 = 1;
+            deplacement(couts[x][y] + 1, tour);
+            tour++;
+        }
     }
 
-    private static int intermediateC[] = new int[2];
     private static int minDeplacements;
 
-    private static void deplacement(int nbDeplacements, int[] c, int[] parent, int robot, ArrayDeque<int[]> pile) {
-        if(map[c[LIGNE]][c[COLONNE]] != 1 && !rf[c[LIGNE]][c[COLONNE]][robot]) {
-            rf[c[LIGNE]][c[COLONNE]][robot] = true;
-            couts[c[LIGNE]][c[COLONNE]][robot] = couts[parent[LIGNE]][parent[COLONNE]][robot] + 1;
-            pile.add(Arrays.copyOf(c, 2));
-            if(rf[c[LIGNE]][c[COLONNE]][ROBOT1]
-                    && rf[c[LIGNE]][c[COLONNE]][ROBOT2]
-                    && (Math.max(couts[c[LIGNE]][c[COLONNE]][ROBOT1], couts[c[LIGNE]][c[COLONNE]][ROBOT2]) < minDeplacements)) {
-                minDeplacements = Math.max(couts[c[LIGNE]][c[COLONNE]][ROBOT1], couts[c[LIGNE]][c[COLONNE]][ROBOT2]);
+    private static void deplacement(int cost, int tour) {
+        while (h2 != t2) {
+            int x = f2[h2][0];
+            int y = f2[h2][1];
+            int k = f2[h2][2];
+            h2++;
+
+            if (x != 0 && k != 0 && rf[x - 1][y] != tour) {
+                visiteState(x - 1, y, cost, tour);
+                f2[t2][0] = x - 1;
+                f2[t2][1] = y;
+                f2[t2][2] = k - 1;
+                t2++;
+            }
+
+            if (y != 0 && k != 0 && rf[x][y - 1] != tour) {
+                visiteState(x, y - 1, cost, tour);
+                f2[t2][0] = x;
+                f2[t2][1] = y - 1;
+                f2[t2][2] = k - 1;
+                t2++;
+            }
+
+            if (x != n - 1 && k != 0 && rf[x + 1][y] != tour) {
+                visiteState(x + 1, y, cost, tour);
+                f2[t2][0] = x + 1;
+                f2[t2][1] = y;
+                f2[t2][2] = k - 1;
+                t2++;
+            }
+
+            if (y != m - 1 && k != 0 && rf[x][y + 1] != tour) {
+                visiteState(x, y + 1, cost, tour);
+                f2[t2][0] = x;
+                f2[t2][1] = y + 1;
+                f2[t2][2] = k - 1;
+                t2++;
             }
         }
-        if(c[LIGNE] != 0 && nbDeplacements < k[robot]) {
-            intermediateC[COLONNE] = c[COLONNE];
-            intermediateC[LIGNE] = c[LIGNE] - 1;
-            deplacement(nbDeplacements +1, intermediateC, parent, robot, pile);
+    }
+
+    private static void visiteState(int x, int y, int cost, int tour) {
+        if (map[x][y] != 1 && rf[x][y] == 0) {
+            couts[x][y] = cost;
+            f1[t1][0] = x;
+            f1[t1][1] = y;
+            t1++;
         }
-        if(c[COLONNE] != 0 && nbDeplacements < k[robot]) {
-            intermediateC[LIGNE] = c[LIGNE];
-            intermediateC[COLONNE] = c[COLONNE] - 1;
-            deplacement(nbDeplacements + 1, intermediateC, parent, robot, pile);
-        }
-        if(c[LIGNE] < map.length - 1 && nbDeplacements < k[robot]) {
-            intermediateC[COLONNE] = c[COLONNE];
-            intermediateC[LIGNE] = c[LIGNE] + 1;
-            deplacement(nbDeplacements + 1, intermediateC, parent, robot, pile);
-        }
-        if(c[COLONNE] < map[LIGNE].length - 1 && nbDeplacements < k[robot]) {
-            intermediateC[LIGNE] = c[LIGNE];
-            intermediateC[COLONNE] = c[COLONNE] + 1;
-            deplacement(nbDeplacements + 1, intermediateC, parent, robot, pile);
+
+        rf[x][y] = tour;
+        int max = Math.max(couts1[x][y], couts2[x][y]);
+        if (map[x][y] != 1 && rf1[x][y] != 0 && rf2[x][y] != 0 && max < minDeplacements) {
+            minDeplacements = max;
         }
     }
-}
+} 
