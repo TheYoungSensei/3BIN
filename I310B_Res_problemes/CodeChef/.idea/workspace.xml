@@ -2,598 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd5ad4ee-5612-46c8-b8c1-cc94679e6bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MayaHayuk.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme02$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme02$Couple.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme02$MyComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme02$State.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme02.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302A_Admin_Linux_Theorie/synthese(henriet).pdf" afterPath="$PROJECT_DIR$/../../I302A_Admin_Linux_Theorie/synthese(henriet).pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/01_VBOX.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/01_VBOX.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/02_Résolution des problèmes.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/02_Résolution des problèmes.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/03_APT.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/03_APT.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/04_SSH.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/04_SSH.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/05_Utilisateurs.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/05_Utilisateurs.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/06_Apache.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/06_Apache.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/07_MySQL.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/07_MySQL.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/08_Cron.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Fiches/08_Cron.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance01/01_AdminLinuxPrésentation.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance01/01_AdminLinuxPrésentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance01/Ex_S1_AdminLinux - Solution.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance01/Ex_S1_AdminLinux - Solution.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance01/Ex_S1_AdminLinux.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance01/Ex_S1_AdminLinux.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance02/Ex_S2_AdminLinux - Solution.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance02/Ex_S2_AdminLinux - Solution.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance02/Ex_S2_AdminLinux.pdf" afterPath="$PROJECT_DIR$/../../I302B_Admin_Linux_Exercices/Seance02/Ex_S2_AdminLinux.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_01.pdf" afterPath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_01.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_02.pdf" afterPath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_02.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_03.pdf" afterPath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_03.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_04.pdf" afterPath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_04.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_05.pdf" afterPath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_05.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_06.pdf" afterPath="$PROJECT_DIR$/../../I302C_Admin_Windows/Slides/Module_06.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I302C_Admin_Windows/admin_win_resume.pdf" afterPath="$PROJECT_DIR$/../../I302C_Admin_Windows/admin_win_resume.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303A_Internet-Intranet/HorairePassageInterIntranetJanvier2018.pdf" afterPath="$PROJECT_DIR$/../../I303A_Internet-Intranet/HorairePassageInterIntranetJanvier2018.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01_LaboRéseauExercice.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01_LaboRéseauExercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01_LaboRéseauExerciceSolution.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01_LaboRéseauExerciceSolution.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01_LaboRéseauPrésentation.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01_LaboRéseauPrésentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01bis_LaboRéseauExercicePrepa.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/01bis_LaboRéseauExercicePrepa.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/netkit-lab_two-switches.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/01_Intro/netkit-lab_two-switches.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/02_LaboRéseauExercice.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/02_LaboRéseauExercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/02_LaboRéseauExerciceSolution.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/02_LaboRéseauExerciceSolution.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/02_LaboRéseauPrésentation.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/02_LaboRéseauPrésentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/labRoutageStatique.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/labRoutageStatique.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/labRoutageStatiqueSolution.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/02_Routage Statique/labRoutageStatiqueSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/03_LaboRéseauExercice.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/03_LaboRéseauExercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/03_LaboRéseauExerciceSolutionOSPF.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/03_LaboRéseauExerciceSolutionOSPF.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/03_LaboRéseauPrésentation.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/03_LaboRéseauPrésentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/labRoutageRIPSolution.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/labRoutageRIPSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/netkit-lab_ospf-singlearea.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/03_Routage Dynamique RIP-OSPF/netkit-lab_ospf-singlearea.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/04- NAT Présentation.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/04- NAT Présentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/04_LaboRéseauExerciceSolution.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/04_LaboRéseauExerciceSolution.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/04_NAT_Exercice.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/04_NAT_Exercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/laboNATDHCPDNS.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/04_NAT/laboNATDHCPDNS.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/05-DHCP-iptables_Présentation.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/05-DHCP-iptables_Présentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/05_LaboRéseauExercice.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/05_LaboRéseauExercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/iptables.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/iptables.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/iptablesSolution.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/05_DCHP_iptables/iptablesSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/06- DNS_Présentation.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/06- DNS_Présentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/06_LaboRéseauExercice.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/06_LaboRéseauExercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Exercice Récapitulatif/LaboRéseauExerciceRecap.pdf" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Exercice Récapitulatif/LaboRéseauExerciceRecap.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Exercice Récapitulatif/laboExRecapSolution.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Exercice Récapitulatif/laboExRecapSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/laboExerciceRecapitulatifSolution.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/laboExerciceRecapitulatifSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/Anciens examens/Examen_LaboRéseaux_Janvier_2017.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/Anciens examens/Examen_LaboRéseaux_Janvier_2017.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/Anciens examens/Examen_LaboRéseaux_Sept_2017.zip" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/Anciens examens/Examen_LaboRéseaux_Sept_2017.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303C_Sécurité/xavier_paulus.pdf" afterPath="$PROJECT_DIR$/../../I303C_Sécurité/xavier_paulus.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/0 - Introduction.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/0 - Introduction.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/1 - Lère de linformation et le Big Data.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/1 - Lère de linformation et le Big Data.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/2 - Les 3V  Volume, Vélocité, Variété.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/2 - Les 3V  Volume, Vélocité, Variété.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/3 - NoSQL.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/3 - NoSQL.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/4 - Hadoop.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/4 - Hadoop.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/5 - Projet.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/5 - Projet.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/6 - Les outils du Big Data.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/6 - Les outils du Big Data.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/7 - Comment implanter le Big Data dans lentreprise.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/Slides/7 - Comment implanter le Big Data dans lentreprise.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/synthese_bigData.docx" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/synthese_bigData.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304A_Big_Data/synthese_bigData.pdf" afterPath="$PROJECT_DIR$/../../I304A_Big_Data/synthese_bigData.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304B_Agile/syllabus.pdf" afterPath="$PROJECT_DIR$/../../I304B_Agile/syllabus.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304C_Droit/frank_dumortier_partie1.pdf" afterPath="$PROJECT_DIR$/../../I304C_Droit/frank_dumortier_partie1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I304C_Droit/frank_dumortier_partie2.pdf" afterPath="$PROJECT_DIR$/../../I304C_Droit/frank_dumortier_partie2.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/BoolVar.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/BoolVar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/EmptyListener.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/EmptyListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$$bslash$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$$bslash$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$unary_$tilde$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet$$anonfun$unary_$tilde$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntVar.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/IntVar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$$anonfun$imposeAllConstraints$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener$$anonfun$executeAfterSolution$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener$$anonfun$executeAfterSolution$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/ScalaSolutionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/SetVar.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/SetVar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$$init$$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm$$anonfun$addFinalStates$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/fsm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$$anonfun$listListIntVarToArrayArrayIntVar$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$$anonfun$listListIntVarToArrayArrayIntVar$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$class.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/jacop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/network.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/network.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$AND$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$OR$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$minimize_seq$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$satisfy_seq$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$search_vector$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$search_vector$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$statistics$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$$anonfun$statistics$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/package.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/state.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/JaCoP/scala/state.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1_SendMoreMoney.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$cp$Ex1bis_SendMoreMoney$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$$anonfun$cp$Ex1bis_SendMoreMoney$$printSol$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex1bis_SendMoreMoney.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex2_Safe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex3_Grocery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$cp$Ex4_Tunapalooza$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$$anonfun$cp$Ex4_Tunapalooza$$printSol$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/Ex4_Tunapalooza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Adder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$cp$examples$ArchFriends$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$$anonfun$cp$examples$ArchFriends$$printSol$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/ArchFriends.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$$anonfun$cp$examples$BreakingNews$$printSol$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/BreakingNews.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$cp$examples$Conference$$printSol$1$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$cp$examples$Conference$$printSol$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$5.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$$anonfun$main$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Conference.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$5.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$6.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$7.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$8.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Flowers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/KnapsackExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$4.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2$$anonfun$5.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Parcel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/TSP.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$2.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationContrainte/out/production/ProgrammationContrainte/cp/examples/Transistors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex3$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex3$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex3.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4a$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4a$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4a.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4a.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4b$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4b$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4b.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4b.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4c$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4c$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4c.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4c.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4d$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4d$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4d.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex4d.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex5$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex5$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex5.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6a$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6a$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6a.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6a.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6b$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6b$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6b.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6b.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6c$.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6c$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6c.class" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/out/production/Semaine04/Ex6c.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/ChefAndRobots.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/ChefAndRobots.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/NDames.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/NDames.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme01$1.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Scheme01$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme01$Road.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Scheme01$Road.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme01$Town.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Scheme01$Town.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeChef/Scheme01.class" afterPath="$PROJECT_DIR$/out/production/CodeChef/Scheme01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-006-introduction.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-006-introduction.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-011-modelisation.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-011-modelisation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-021-REACHABLE-STATE-SPACE.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-021-REACHABLE-STATE-SPACE.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-030-GENERATE-PATH.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-030-GENERATE-PATH.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-039-DIKSTRA.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-039-DIKSTRA.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-042-FCAR.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-042-FCAR.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-053-NDAMES.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-053-NDAMES.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-064-Sweep-line-algorithms.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-064-Sweep-line-algorithms.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-069-Sweep-line-algorithms.pdf" afterPath="$PROJECT_DIR$/../Slides/2017-IPL-I310B-069-Sweep-line-algorithms.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exercices_examens.pdf" afterPath="$PROJECT_DIR$/../exercices_examens.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/01 - CSharp vs Java.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/01 - CSharp vs Java.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/01 - Points importants c#.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/01 - Points importants c#.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/01- Exercice.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/01- Exercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/BDActeurs.7z" afterPath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/BDActeurs.7z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/BDActeursSolution.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/01_C# vs Java/BDActeursSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/02 - Exercice.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/02 - Exercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/02 - Windows Forms.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/02 - Windows Forms.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/Simon with no highscore.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/Simon with no highscore.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/Simon.7z" afterPath="$PROJECT_DIR$/../../I314A_.NET/02_Windows Forms/Simon.7z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/1. LINQ - Introduction.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/1. LINQ - Introduction.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/2. LINQ to Objects.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/2. LINQ to Objects.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/Exercices_C#-Semaine3-4.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/Exercices_C#-Semaine3-4.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/ExtensionMethods.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/ExtensionMethods.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/LINQDataContext.7z" afterPath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/LINQDataContext.7z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/LINQDataContext.SolutionSeance4.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/03_04_LINQ/LINQDataContext.SolutionSeance4.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/05 - 06 Exercice.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/05 - 06 Exercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/05 - 06 LINQ to Entities Présentation.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/05 - 06 LINQ to Entities Présentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/Ex1_ConsoleApplicationSolution.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/Ex1_ConsoleApplicationSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/Ex2_SchoolSolution.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/Ex2_SchoolSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/07 - WPF Début .pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/07 - WPF Début .pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/07 - WPF Début.docx" afterPath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/07 - WPF Début.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/GestionnaireTaches.7z" afterPath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/GestionnaireTaches.7z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/TopPlaces.7z" afterPath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/TopPlaces.7z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/images.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/images.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/photos.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/07_WPF Début/photos.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/08 - WPF-MVVM-Architecture Exercice.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/08 - WPF-MVVM-Architecture Exercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/08 - WPF-MVVM-Architecture Présentation.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/08 - WPF-MVVM-Architecture Présentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/DemoLegume.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/DemoLegume.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/WpfApplicationEmployeeWithoutCommand.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/08_MVVM_Architecture/WpfApplicationEmployeeWithoutCommand.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/09 - WPF - MVVM- Notifications Command Exercice.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/09 - WPF - MVVM- Notifications Command Exercice.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/09 - WPF-MVVM-Notifications Command Présentation.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/09 - WPF-MVVM-Notifications Command Présentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/Demo.7z" afterPath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/Demo.7z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/WpfApplicationEmployeeSolution.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/09_WPF_MVVM_Notifications_Command/WpfApplicationEmployeeSolution.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/11 - WCF SOAP Exercices.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/11 - WCF SOAP Exercices.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/11 - WCF SOAP Présentation.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/11 - WCF SOAP Présentation.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/12 - Exercices.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/12 - Exercices.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/C# WCF 2.pdf" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/C# WCF 2.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/Demo - WCFHelloWorldService.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/Demo - WCFHelloWorldService.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/Ex1 Solution - WcfServiceBancaire.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/Ex1 Solution - WcfServiceBancaire.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/Ex2 Solution - WcfServiceStudent.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/Ex2 Solution - WcfServiceStudent.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/WcfServiceClient.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/11-12 WCF -SOAP/WcfServiceClient.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/Anciens examens/Examen Janvier 2017.zip" afterPath="$PROJECT_DIR$/../../I314A_.NET/Anciens examens/Examen Janvier 2017.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/favicon.ico" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/favicon.ico" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/projet_perso_sacre_christopher.zip" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/projet_perso_sacre_christopher.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/projet_perso_sources.docx" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/projet_perso_sources.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/Amelioration.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/Amelioration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/ConcreteRobot$1.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/ConcreteRobot$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/ConcreteRobot$RobotBuilder.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/ConcreteRobot$RobotBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/ConcreteRobot.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/ConcreteRobot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/PatternRobots.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/PatternRobots.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/Robot.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/Robot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/RobotLand.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/RobotLand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/SuperBouclier.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/SuperBouclier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/SuperCanon.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/SuperCanon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/SuperPV.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/SuperPV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsineGrosseBerta.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsineGrosseBerta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsinePicVert.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsinePicVert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsineRobot.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsineRobot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsineTank.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/out/production/CombatRobot/UsineTank.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/client/MainClient.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/client/MainClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/client/desktop.ini" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/client/desktop.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/AmEx.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/AmEx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/CarteDeCredit.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/CarteDeCredit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/DinersClub.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/DinersClub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/Discover.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/Discover.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/MasterCard.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/MasterCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/Visa.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/Visa.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/desktop.ini" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/domaine/desktop.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/Generateur.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/Generateur.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerAmEx.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerAmEx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerDinersClub.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerDinersClub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerDiscover.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerDiscover.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerMasterCard.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerMasterCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerVisa.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/HandlerVisa.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/desktop.ini" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/out/production/GoldCard/validation/desktop.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/client/desktop.ini" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/client/desktop.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/desktop.ini" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/desktop.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/desktop.ini" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/desktop.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Fabriquant.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Fabriquant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Groupe.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Groupe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Lecteur.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Lecteur.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Listeur.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Listeur.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/ListeurNom.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/ListeurNom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Main.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Partie.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Partie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Pile.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Pile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/PileImpl$NoeudPile.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/PileImpl$NoeudPile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/PileImpl.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/PileImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Totaliseur.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Totaliseur.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Traitement.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Traitement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Valeur.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/out/production/MonArbreSonHistoire/Valeur.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/And.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/And.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/ContextListerMots.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/ContextListerMots.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Counter.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Counter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Main.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Or.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Or.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Strategy.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/Strategy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/StrategyLeafLignes.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/StrategyLeafLignes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/StrategyLeafMots.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/StrategyLeafMots.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/StrategyLeafPalindromes.class" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/out/production/Semaine02/StrategyLeafPalindromes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/Patterns.pdf" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/Patterns.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/YouTube - The Psychology of Incompetence - Ron Burk.avi" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/YouTube - The Psychology of Incompetence - Ron Burk.avi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/références/Ancien Syllabus Patterns.pdf" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/références/Ancien Syllabus Patterns.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/références/Design-Patterns-card.pdf" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Therorie/références/Design-Patterns-card.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303A_Internet-Intranet/questions_frequentes/Intra 2016  janvier.txt" afterPath="$PROJECT_DIR$/../../I303A_Internet-Intranet/questions_frequentes/Intra 2016  janvier.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303A_Internet-Intranet/questions_frequentes/Questions-de-lexamen-oral-2011-II.txt" afterPath="$PROJECT_DIR$/../../I303A_Internet-Intranet/questions_frequentes/Questions-de-lexamen-oral-2011-II.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303A_Internet-Intranet/questions_frequentes/QuestionsJanvier2014.txt" afterPath="$PROJECT_DIR$/../../I303A_Internet-Intranet/questions_frequentes/QuestionsJanvier2014.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Fichiers Exemple DNS/db.reseau.truc.brol.be" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Fichiers Exemple DNS/db.reseau.truc.brol.be" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Fichiers Exemple DNS/named.conf.local" afterPath="$PROJECT_DIR$/../../I303B_Laboratoire_Reseau/06_DNS/Fichiers Exemple DNS/named.conf.local" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/PAEManager.htm" afterPath="$PROJECT_DIR$/../../I310A_PFLC/PAEManager.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/Semaine04.iml" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/Semaine04.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex3.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex3.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4a.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4a.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4b.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4b.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4c.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4c.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4d.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex4d.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex5.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex5.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex6a.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex6a.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex6b.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex6b.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex6c.scala" afterPath="$PROJECT_DIR$/../../I310A_PFLC/ProgrammationFonctionelle/src/Ex6c.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DigJump.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FlyHeightMode.java" afterPath="$PROJECT_DIR$/src/FlyHeightMode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NDames.java" afterPath="$PROJECT_DIR$/src/NDames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scheme01.java" afterPath="$PROJECT_DIR$/src/Scheme01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/instnwnd.sql" afterPath="$PROJECT_DIR$/../../I314A_.NET/05 - 06 Linq to Entities/instnwnd.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.Domain/Concrete/EFProductRepository.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.Domain/Concrete/EFProductRepository.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.Domain/Entities/Product.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.Domain/Entities/Product.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.Domain/Migrations/Configuration.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.Domain/Migrations/Configuration.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.UnitTests/AdminSecurityTests.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.UnitTests/AdminSecurityTests.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.UnitTests/AdminTests.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.UnitTests/AdminTests.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.UnitTests/ImageTests.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.UnitTests/ImageTests.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Controllers/AccountController.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Controllers/AccountController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Controllers/AdminController.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Controllers/AdminController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Controllers/ProductController.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Controllers/ProductController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Infrastructure/Abstract/IAuthProvider.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Infrastructure/Abstract/IAuthProvider.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Infrastructure/Concrete/FormsAuthProvider.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Infrastructure/Concrete/FormsAuthProvider.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Models/CartIndexViewModel.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Models/CartIndexViewModel.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Models/LoginViewModel.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Models/LoginViewModel.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate-vsdoc.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate-vsdoc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.unobtrusive.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.unobtrusive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.unobtrusive.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Scripts/jquery.validate.unobtrusive.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Account/Login.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Account/Login.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Admin/Edit.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Admin/Edit.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Admin/Index.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Admin/Index.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Shared/_AdminLayout.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/SportsStore_Semaine_1/SportsStore.WebUI/Views/Shared/_AdminLayout.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat.sln" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Controllers/HomeController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Models/ErrorViewModel.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Models/ErrorViewModel.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Program.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Properties/launchSettings.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Properties/launchSettings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Startup.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Startup.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Home/Index.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Home/Index.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Shared/Error.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Shared/Error.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Shared/_Layout.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Shared/_ValidationScriptsPartial.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/_ViewImports.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/_ViewImports.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/_ViewStart.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/Views/_ViewStart.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/YoloChat.csproj" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/YoloChat.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/YoloHandler.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/YoloHandler.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/YoloManager.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/YoloManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/appsettings.Development.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/appsettings.Development.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/appsettings.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/appsettings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/bundleconfig.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/bundleconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/css/site.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/css/site.min.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/css/site.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner1.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner2.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner3.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner3.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner4.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/images/banner4.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/js/site.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/js/site.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/js/site.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/js/site.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/bootstrap/dist/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/LICENSE.md" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/additional-methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/jquery.validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloChat/YoloChat/wwwroot/lib/jquery/dist/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake.sln" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Apple.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Apple.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Controllers/HomeController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Models/ErrorViewModel.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Models/ErrorViewModel.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Program.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Properties/launchSettings.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Properties/launchSettings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Snake.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Snake.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Startup.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Startup.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Home/Index.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Home/Index.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Shared/Error.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Shared/Error.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Shared/_Layout.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Shared/_ValidationScriptsPartial.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/_ViewImports.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/_ViewImports.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/_ViewStart.cshtml" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/Views/_ViewStart.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/YoloHandler.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/YoloHandler.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/YoloManager.cs" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/YoloManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/YoloSnake.csproj" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/YoloSnake.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/appsettings.Development.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/appsettings.Development.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/appsettings.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/appsettings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/bundleconfig.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/bundleconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/css/site.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/css/site.min.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/css/site.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner1.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner2.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner3.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner3.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner4.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/images/banner4.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/js/WebSocketManager.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/js/WebSocketManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/js/site.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/js/site.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/bootstrap/dist/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/LICENSE.md" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/additional-methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/jquery.validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/.bower.json" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/../../I314B_ASP.NET/YoloSnake/YoloSnake/wwwroot/lib/jquery/dist/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/CombatRobot.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/CombatRobot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/Amelioration.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/Amelioration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/ConcreteRobot.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/ConcreteRobot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/PatternRobots.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/PatternRobots.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/Robot.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/Robot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/RobotLand.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/RobotLand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/SuperBouclier.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/SuperBouclier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/SuperCanon.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/SuperCanon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/SuperPV.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/SuperPV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsineGrosseBerta.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsineGrosseBerta.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsinePicVert.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsinePicVert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsineRobot.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsineRobot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsineTank.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/CombatRobot/src/UsineTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/GoldCard.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/GoldCard.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/cc.txt" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/cc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/sortie.txt" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/sortie.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/client/MainClient.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/client/MainClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/AmEx.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/AmEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/CarteDeCredit.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/CarteDeCredit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/DinersClub.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/DinersClub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/Discover.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/Discover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/MasterCard.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/MasterCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/Visa.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/domaine/Visa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/Generateur.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/Generateur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerAmEx.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerAmEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerDinersClub.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerDinersClub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerDiscover.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerDiscover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerMasterCard.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerMasterCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerVisa.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/GoldCard/src/validation/HandlerVisa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/LeJeuDeLaVie.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/LeJeuDeLaVie.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Activité.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Activité.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Cellule.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Cellule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/ConstantesJeu.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/ConstantesJeu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Espion.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Espion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/EstMorte.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/EstMorte.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/EstVivante.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/EstVivante.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/JeuDeLaVie.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/JeuDeLaVie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/JeuDeLaVieGUI.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/JeuDeLaVieGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/JeuDeLaViePanel.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/JeuDeLaViePanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Meurt.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Meurt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Parcourir.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Parcourir.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/ParcourtFort.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/ParcourtFort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/ParcourtNormal.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/ParcourtNormal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Principale.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Principale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Situation.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Situation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Vit.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/LeJeuDeLaVie/src/vie/Vit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/MonArbreSonHistoire.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/MonArbreSonHistoire.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Fabriquant.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Fabriquant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Groupe.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Groupe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Lecteur.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Lecteur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Listeur.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Listeur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/ListeurNom.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/ListeurNom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Main.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Partie.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Partie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Pile.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Pile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/PileImpl.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/PileImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Totaliseur.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Totaliseur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Traitement.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Traitement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Valeur.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/MonArbreSonHistoire/src/Valeur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/Semaine02.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/Semaine02.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/And.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/And.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/ContextListerMots.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/ContextListerMots.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Counter.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Counter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Main.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Or.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Or.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Strategy.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/Strategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/StrategyLeafLignes.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/StrategyLeafLignes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/StrategyLeafMots.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/StrategyLeafMots.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/StrategyLeafPalindromes.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/src/StrategyLeafPalindromes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/texte.txt" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine02/texte.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/Semaine03_Abstract_Factory.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/Semaine03_Abstract_Factory.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/DVD.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/DVD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/DVDFactory.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/DVDFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Livre.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Livre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/LivreFactory.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/LivreFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Magasin.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Magasin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Main.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Produit.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/Produit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/ProduitFactory.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Abstract_Factory/src/ProduitFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/Semaine03_Factory_Method.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/Semaine03_Factory_Method.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/DVD.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/DVD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/Livre.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/Livre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/MagasinDeDVD.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/MagasinDeDVD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/MagasinDeLivre.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/MagasinDeLivre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/MagasinFactory.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/MagasinFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/Main.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/Produit.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/Semaine03_Factory_Method/src/Produit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/.classpath" afterPath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/.project" afterPath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/machineACafe.iml" afterPath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/machineACafe.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/MachineACafe.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/MachineACafe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/MainMachine.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/MainMachine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/Piece.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/Piece.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/ToucheBoisson.java" afterPath="$PROJECT_DIR$/../../I314C_Patterns/machineACafe/src/question/ToucheBoisson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../README.md" afterPath="$PROJECT_DIR$/../../README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -618,23 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NDames.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NDames.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Scheme01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scheme01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="-330">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -650,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MayaHayuk.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MayaHayuk.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MayaHayuk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
               <folding>
                 <element signature="e#4161#4162#0" expanded="true" />
                 <element signature="e#4194#4195#0" expanded="true" />
@@ -662,6 +60,19 @@
                 <element signature="e#4277#4278#0" expanded="true" />
                 <element signature="e#4317#4318#0" expanded="true" />
                 <element signature="e#4349#4350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DigJump.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DigJump.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1331#1340#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -761,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/FlyHeightMode.java" />
         <option value="$PROJECT_DIR$/src/Scheme01.java" />
         <option value="$PROJECT_DIR$/src/MayaHayuk.java" />
+        <option value="$PROJECT_DIR$/src/DigJump.java" />
       </list>
     </option>
   </component>
@@ -792,10 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -812,6 +222,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -848,7 +260,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MayaHayuk">
+  <component name="RunManager" selected="Application.DigJump">
+    <configuration name="DigJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="DigJump" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeChef" />
+      <envs />
+    </configuration>
     <configuration name="FlyHeightMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FlyHeightMode" />
@@ -866,20 +292,6 @@
     <configuration name="MayaHayuk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MayaHayuk" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CodeChef" />
-      <envs />
-    </configuration>
-    <configuration name="NDames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NDames" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1001,19 +413,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NDames" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Scheme01" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Scheme02" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FlyHeightMode" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MayaHayuk" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Scheme01" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Scheme02" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FlyHeightMode" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MayaHayuk" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DigJump" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MayaHayuk" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Scheme01" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FlyHeightMode" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Scheme02" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NDames" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DigJump" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MayaHayuk" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Scheme01" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FlyHeightMode" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Scheme02" />
       </list>
     </recent_temporary>
   </component>
@@ -1077,14 +489,16 @@
       <workItem from="1513331107863" duration="133000" />
       <workItem from="1513861682664" duration="180000" />
       <workItem from="1513861949867" duration="2949000" />
+      <workItem from="1513984995524" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111305000" />
+    <option name="totallyTimeSpent" value="113444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <frame x="4" y="30" width="1366" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1094,19 +508,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3970346" sideWeight="0.5048544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32454696" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32454696" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2590909" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26287878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3970346" sideWeight="0.49514562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3970346" sideWeight="0.49514562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1136,13 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TSORT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex2016v2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1358,14 +765,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scheme02.java" />
     <entry file="file://$PROJECT_DIR$/src/FlyHeightModeV2.java" />
-    <entry file="file://$PROJECT_DIR$/src/Shortest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NDames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1373,14 +772,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scheme01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MayaHayuk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
           <folding>
             <element signature="e#4161#4162#0" expanded="true" />
             <element signature="e#4194#4195#0" expanded="true" />
@@ -1443,6 +834,33 @@
             <element signature="e#4277#4278#0" expanded="true" />
             <element signature="e#4317#4318#0" expanded="true" />
             <element signature="e#4349#4350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shortest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scheme01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DigJump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1331#1340#0" expanded="true" />
           </folding>
         </state>
       </provider>
