@@ -1,4 +1,5 @@
 import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Queue;
 
 class DigVirus {
@@ -30,7 +31,7 @@ class DigVirus {
             count++;
             while (!modifs.isEmpty()) {
                 int i= modifs.poll(); // Je récupère mes modifs une à une
-                for (int j = 0; j < digits.length; j++) { // Je parcoure mon échatillon
+                for (int j = Math.max(0, i - 9) ; j < Math.min(digits.length, i + 9); j++) { //Je n'itère que sur la zone intéréssante (9 cases autour du virus plus puissant).
                     /* Code Chef Conditions */
                     if (digits[i] - digits[j] >= Math.abs(i-j) && temp[j]< digits[i]) {
                         /* InProcess prend la valeur du virus plus puissant */
