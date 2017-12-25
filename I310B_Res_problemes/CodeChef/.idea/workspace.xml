@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd5ad4ee-5612-46c8-b8c1-cc94679e6bc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DigVirus.java" afterPath="$PROJECT_DIR$/src/DigVirus.java" />
-    </list>
+    <list default="true" id="dd5ad4ee-5612-46c8-b8c1-cc94679e6bc3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -491,16 +489,15 @@
       <workItem from="1513861682664" duration="180000" />
       <workItem from="1513861949867" duration="2949000" />
       <workItem from="1513984995524" duration="4855000" />
-      <workItem from="1514067919713" duration="422000" />
+      <workItem from="1514067919713" duration="1021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116582000" />
+    <option name="totallyTimeSpent" value="117181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
