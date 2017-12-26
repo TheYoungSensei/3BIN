@@ -11,7 +11,7 @@ public class Scheme01 {
     private static Comparator<Integer> comparator = new Comparator<Integer>() {
         @Override
         public int compare(Integer i1, Integer i2) {
-            if (i1.equals(i2) || towns[i1].cost == towns[i2].cost)
+            if (i1 == i2 || towns[i1].cost == towns[i2].cost)
                 return i1 - i2;
             return towns[i1].cost - towns[i2].cost;
         }
