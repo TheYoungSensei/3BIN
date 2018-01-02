@@ -51,7 +51,7 @@ public class Ex2016 {
             if(t != -1)
                 addToPile(t);
             /*
-            int t = succ(c);
+            int t = arrivee(c);
             if(t == tgt) {
                 System.out.println("true");
                 return;
