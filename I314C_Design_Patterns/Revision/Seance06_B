@@ -1,0 +1,31 @@
+Nom du Pattern : Composite
+-- Classes --
+Component : Partie
+Composite : Groupe
+Leaf : Valeur
+-- Méthodes --
+operation : demande, getNiveau
+add : add
+remove : /
+getChild : getParties
+######################
+Nom du Pattern : Visitor
+-- Classes --
+Visitor : Traitement
+ConcreteVisitor : Listeur, Totaliseur, ListeurNoms
+Client : 
+Element : Partie
+ConcreteElement : Valeur, Groupe
+-- Méthodes --
+visitElement : traiteValeur, traiteGroupe
+accept : demande
+######################
+Nom du Pattern : Builder
+-- Classes --
+Builder, ConcreteBuilder : Fabriquant
+Director : Lecteur
+-- Méthodes --
+construct : construire
+buildPart : construireGroupe, construireValeur
+getResult : getRésultat
+

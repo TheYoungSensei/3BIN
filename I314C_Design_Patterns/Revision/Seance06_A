@@ -1,0 +1,10 @@
+Nom du pattern : Decorator
+-- Classes --
+Component : Boisson
+ConcreteComponent : Café, Dessert, Moka, Décaféiné
+Decorator : Additif
+ConcreteDecorator : Crème, Lait, Sucre
+-- Méthodes --
+operation : getNom, prix, toString
+addedState : boisson
+addedBehaviour : /

@@ -1,0 +1,54 @@
+Nom du Pattern : Observer
+-- Classes --
+Subject : JeuDeLaVie
+ConcreteSubject : JeuDeLaVie 
+Observer : Espion
+ConcreteObserver : JeuDeLaVieGUI
+-- Méthodes --
+attach : attacher
+detach : détacher
+notify : prévenirEspions
+update : utiliserRenseignements
+subjectState : espions
+observerState : jeu
+######################
+Nom du Pattern : State
+-- Classes --
+Context : Cellule
+State : Situation
+ConcreteState : EstVivante, EstMorte
+-- Méthodes --
+request : vit, meurt, estVivante, toggle, ajouterAuxVoisinsVivants, générer
+handle : vit, meurt, toggle, estVivante, ajouterAuxVoisinsVivants, générer
+######################
+Nom du Pattern : Singleton
+-- Classes --
+Singleton : EstVivante, EstMorte
+-- Méthodes --
+uniqueInstance : instance
+singletonData : instance
+instance : getInstance
+SingletonOperation : Constructeurs (EstVivante, EstMorte)
+######################
+Nom du Pattern : Visitor
+-- Classes --
+Visitor : Parcourir
+ConcreteVisitor : ParcourtNormal, ParcourtFort
+Client : Principale
+Element : Cellule
+ConcreteElement : Cellule
+-- Méthodes --
+visitElement : parcourtCelluleVivante, parcourtCelluleMorte
+accept :
+######################
+Nom du Pattern : Command
+-- Classes --
+Client : Principale
+Invoker : JeuDeLaVie
+Command : Activité
+ConcreteCommand : Vit, Meurt
+Receiver : Cellule
+-- Méthodes --
+execute : activer
+action : vit, meurt
+

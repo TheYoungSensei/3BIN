@@ -1,0 +1,12 @@
+Nom du Pattern : FlyWeight
+-- Classes --
+FlyWeight : IntegerCache
+FlyWeightFactory : Integer
+Client : /
+ConcreteFlyWeight : IntegerCache
+UnSharedConcreteFlyWeight : Integer
+-- Méthodes --
+operation : /
+getFlyWeight : valueOf
+intrinsicState : cache
+allState : /

@@ -1,0 +1,3 @@
+// AbstractProduct
+public interface Produit {
+}

@@ -1,0 +1,7 @@
+Nom du Pattern : TemplateMethod
+-- Classes --
+AbstractClass : Reader
+ConcreteClass : BufferedReader
+-- Méthodes --
+templateMethod : read()
+subMethod read(char cbuff[], int off, int len)
