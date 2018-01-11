@@ -1,0 +1,17 @@
+Nom du pattern : ChainOfResponsibility
+-- Classes --
+Client : MainClient
+Handler : Generateur
+ConcreteHandler : HandlerAmEx, HandlerDinersClub, HandlerDiscover, HandlerMasterCard, HandlerVisa
+-- Méthodes --
+handleRequest : creerCarte
+##########################################
+Nom du pattern : AbstractFactory
+-- Classes --
+AbstractFactory : Generateur
+ConcreteFactory : HandlerAmEx, HandlerDinersClub, HandlerDiscover, HandlerMasterCard, HandlerVisa
+AbstractProduct : CarteDeCredit
+ConcreteProduct : AmEx, DinersClub, Discover, MasterCard, Visa
+Client :
+-- Méthodes --
+createProduct : creerCarte

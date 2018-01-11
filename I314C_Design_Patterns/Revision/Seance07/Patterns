@@ -1,0 +1,42 @@
+Nom du pattern : Builder
+-- Classes --
+Builder : RobotBuilder
+ConcreteBuilder : RobotBuilder
+Director : PatternRobots
+-- Méthodes --
+buildPart : setLife, setCanon, setShield, setFreq
+getResult : build
+#####################################################
+Nom du pattern : Decorator
+-- Classes --
+Component : Robot
+ConcreteComponent : ConcreteRobot
+Decorator : Amelioration
+ConcreteDecorator : GrosBouclier, GrosCanon, PeauDure
+-- Méthodes --
+operation : setLife, setCanon, setShield, setFreq
+addedState : robot
+addedBehaviour : /
+#####################################################
+Nom du pattern : AbstractFactory
+-- Classes --
+Client : PatternRobots
+AbstractFactory : RobotFactory
+Factory : TankFactory, GrosseBertaFactory, PicVertFactory
+AbstractProduct : Robot, Amelioration
+Product : Robot, GrosBouclier, GrosCanon, PeauDure
+ConcreteProduct : ConcreteRobot
+-- Méthodes --
+createProduct : create
+#####################################################
+Nom du pattern : FlyWeight
+-- Classes --
+FlyWeightFactory : RobotFlyWeightFactory
+FlyWeight : RobotFactory
+ConcreteFlyWeight : GrosseBertaFactory, TankFactory, PicVertFactory
+UnsharedConcreteFlyWeight : /
+-- Méthodes --
+getflyWeight : getFlyWeight
+operation : create
+allState : /
+intrisicState : /

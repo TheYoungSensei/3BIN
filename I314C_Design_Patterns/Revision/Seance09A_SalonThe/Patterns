@@ -1,0 +1,25 @@
+Nom du pattern : FlyWeight
+-- Classes --
+FlyWeightFactory : Carte
+FlyWeight : Parfum
+ConcreteFlyWeight : Parfum
+UnsharedFlyWeight : /
+Client :
+-- Méthodes --
+getFlyWeight : getParfum
+operation : getNom, getPrix
+intrinsicState : nom, prix
+allState : /
+#############################################
+Nom du pattern : FlyWeight
+-- Classes --
+FlyWeightFactory : Salle
+FlyWeight : Table
+ConcreteFlyWeight : Table
+UnsharedFlyWeight : /
+Client :
+-- Méthodes --
+getFlyWeight : getTable
+operation : getNumero, getNbPlaces
+intrinsicState : numero, nbPlaces
+allState : /

@@ -1,0 +1,21 @@
+Nom du Pattern : Facade
+-- Classes --
+Facade : DwarvenGoldMine
+-- Méthodes --
+/
+##########################################
+Nom du pattern : Template Method
+-- Classes --
+AbstractClass : DwarvenMineWorker
+ConcreteClass : DwarvenCartOperator, DwarvenGoldDigger, DwarvenTunnelDigger
+-- Méthodes --
+templateMethod : action
+subMethod : work, name
+##########################################
+Nom du pattern : Chain of Responsibility
+-- Classes --
+Client :
+Handler : Action
+ConcreteHandler : GO_TO_SLEEP, WAKE_UP, GO_HOME, GO_TO_MINE, WORK
+-- Méthodes --
+handleRequest :
