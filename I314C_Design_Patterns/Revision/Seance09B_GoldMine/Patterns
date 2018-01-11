@@ -14,8 +14,8 @@ subMethod : work, name
 ##########################################
 Nom du pattern : Chain of Responsibility
 -- Classes --
-Client :
+Client : Main
 Handler : Action
 ConcreteHandler : GO_TO_SLEEP, WAKE_UP, GO_HOME, GO_TO_MINE, WORK
 -- Méthodes --
-handleRequest :
+handleRequest : goToSleep, wakeUp, goHome, goToMine, work

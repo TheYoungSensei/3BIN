@@ -1,23 +1,29 @@
 package goldmine;
 
+// AbstractClass
 public abstract class DwarvenMineWorker {
 
+    // handleRequest
   public void goToSleep() {
     System.out.println(name()+" va dormir.");
   }
 
+  // handleRequest
   public void wakeUp() {
     System.out.println(name()+" se réveille.");
   }
 
+  // handleRequest
   public void goHome() {
     System.out.println(name()+" rentre chez lui.");
   }
 
+  // handleRequest
   public void goToMine() {
     System.out.println(name()+" va à la mine.");
   }
 
+  // templateMethod
   private void action(Action action) {
     switch (action) {
       case GO_TO_SLEEP:
@@ -47,11 +53,15 @@ public abstract class DwarvenMineWorker {
     }
   }
 
+  // subMethod, handleRequest
   public abstract void work();
 
+  // subMethod
   public abstract String name();
 
+  // Handler
   static enum Action {
+      // ConcreteHandlers
     GO_TO_SLEEP, WAKE_UP, GO_HOME, GO_TO_MINE, WORK
   }
 }

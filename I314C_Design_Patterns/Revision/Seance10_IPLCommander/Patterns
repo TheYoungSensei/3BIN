@@ -1,0 +1,18 @@
+Nom du pattern : Decorator
+-- Classes --
+Component : Fichier
+ConcreteComponent : FichierImpl
+Decorator : Logger
+ConcreteDecorator : Logger
+-- Méthodes --
+operation : liste, charge, sauve, efface
+addedBehaviour : logger
+#####################################################
+Nom du pattern : Proxy
+-- Classes --
+Client : IPLCommander
+Subject : Fichier
+RealSubject : FichierImpl, Logger
+Proxy : Proxy
+-- Méthodes --
+request : liste, sauve, charge, efface
