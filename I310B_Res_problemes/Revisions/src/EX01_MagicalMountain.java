@@ -31,7 +31,7 @@ public class EX01_MagicalMountain {
                     // tree[2] = RIGHT_SON (le fils situé à la droite mais en dessous de la pierre)
                     // tree[4] = LEVEL (où se situe la pierre sur l'arbre)
                 }
-                if(tree.get(left)[LEFT_SON] == null) { // Je n'ai pas de fils gauche :'(
+                if(tree.get(left)[LEFT_SON] == null) { // Je nbLignes'ai pas de fils gauche :'(
                     tree.get(left)[LEFT_SON] = right; // J'ai un fils gauche :)
                 } else {
                     tree.get(left)[RIGHT_SON] = right; // J'ai même un fils droit :D
@@ -45,7 +45,7 @@ public class EX01_MagicalMountain {
             for(Map.Entry<Integer, LinkedList<Integer>> level : levels.entrySet()) {
                 path.add(level.getValue().removeFirst()); // la pierre s'ajoute au chemin
                 // First car je prends à partir de gauche
-                if(!level.getValue().isEmpty()) { // level n'avait pas d'autre pierre ....
+                if(!level.getValue().isEmpty()) { // level nbLignes'avait pas d'autre pierre ....
                     path.add(level.getValue().removeLast());
                     // Last car je prends à partir de droite
                 }
