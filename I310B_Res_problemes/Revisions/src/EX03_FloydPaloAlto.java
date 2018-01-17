@@ -73,7 +73,7 @@ class EX03_FloydPaloAlto {
         // À la recherche de Tarjan
         boolean trouve = false;
         // Tarjan était juste sous nos pieds
-        if(ligneFloyd == ligneTarjan && ligneTarjan == colonneTarjan) {
+        if(ligneFloyd == ligneTarjan && colonneFloyd == colonneTarjan) {
             System.out.println("0 true");
         }
         // Tant qu'il y a de l'espoir (ou des coordonnees) on continue de chercher
