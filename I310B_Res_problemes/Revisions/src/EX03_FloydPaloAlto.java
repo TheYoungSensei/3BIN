@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class EX02_FloydPaloAlto {
+class EX03_FloydPaloAlto {
 
     private static final int LIGNE = 0;
     private static final int COLONNE = 1;
