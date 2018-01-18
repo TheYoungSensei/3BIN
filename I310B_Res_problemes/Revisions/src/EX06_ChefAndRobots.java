@@ -54,10 +54,9 @@ class EX06_ChefAndRobots {
         rfRobot1 = new boolean[lignes][colonnes];
         fRobot1 = new ArrayDeque<>();
         // Cas initial
+        // ATTENTION il ne s'agit pas du robot 1 mais du robot courant
         fRobot1.addLast(position); // Ajout au sein de f
-
         rfRobot1[position[0]][position[1]] = true; // Ajout au sein de rf
-
         couts[position[0]][position[1]] = 1; // Initialisation du cout à 1
 
         // Tant que j'ai des éléments à parcourir
@@ -67,15 +66,13 @@ class EX06_ChefAndRobots {
             int colonne = fRobot1.getFirst()[1];
             // On la supprime de f
             fRobot1.removeFirst();
-
             // Initialisation
+            // ATTENTION il ne s'agit pas du robot d2 mais du robot qui n'est pas celui courant
             rfRobot2 = new boolean[lignes][colonnes];
             fRobot2 = new ArrayDeque<>();
-
             // On ajoute la case actuellement en vérification
             fRobot2.addLast(new int[] {ligne, colonne});
             rfRobot2[ligne][colonne] = true;
-
             // Tant que l'autre robot peut encore aller sur des cases
             while (!fRobot2.isEmpty()) {
                 int a = fRobot2.getFirst()[0];
@@ -97,12 +94,10 @@ class EX06_ChefAndRobots {
         // Si on est déjà passé par ici return
         if(rfRobot2[ligne2][colonne2])
             return;
-
         // Afin de restreindre mes deplacements possibles
         if (Math.abs(ligne2 - ligne1) + Math.abs(colonne2 - colonne1) > nbDepl) {
             return;
         }
-
         // Si mtn je peux m'arrêter sur la case et que le robot ne l'a pas encore visitée
         if (map[ligne2][colonne2] == 0 && !rfRobot1[ligne2][colonne2]) {
             // Je la rajoute au robot1
