@@ -1,0 +1,9 @@
+ifconfig eth0 192.168.2.2/30 up
+ifconfig eth1 192.168.4.1/29 up
+ifconfig eth2 192.168.3.2/30 up
+
+/etc/init.d/zebra start
+/etc/init.d/dhcp3-server start
+
+iptables -A FORWARD -m state --state ESTABLISHED -j ACCEPT
+iptables -A FORWARD -s 192.168.6.0/25 -d 192.168.4.0/29 -j REJECT

@@ -1,0 +1,53 @@
+#######################################################
+# L'adressage IP
+# Etudiant 1 : Sacré Christopher
+# Date : 22-01-2018
+#######################################################
+Réseau nom : Internet
+	adr réseau : 89.89.89.0
+	netmask : 255.255.255.252/30
+	adr broadcast : 89.89.89.3
+	adr routeur r1 : 89.89.89.1/30
+	adr host twitter : 89.89.89.2/30
+Réseau nom : A
+	adr réseau : 192.168.1.0
+	netmask : 255.255.255.252/30
+	adr broadcast : 192.168.1.3
+	adr routeur r1 : 192.168.1.1/30
+	adr routeur r2 : 192.168.1.2/30
+Réseau Nom : B
+	adr réseau : 192.168.2.0
+	netmask : 255.255.255.252/30
+	adr broadcast : 192.168.2.3
+	adr routeur r1 : 192.168.2.1/30
+	adr routeur r3 : 192.168.2.2/30
+Réseau Nom : C
+	adr réseau : 192.168.3.0
+	netmask : 255.255.252/30
+	adr broadcast : 192.168.3.3
+	adr routeur r2 : 192.168.3.1/30
+	adr routeur r3 : 192.168.3.2/30
+Réseau Nom : Direction
+	adr réseau : 192.168.4.0
+	netmask : 255.255.255.248/29
+	adr broadcast : 192.168.4.7
+	adr routeur r3 : 192.168.4.1/29
+	adr host d1 : 192.168.4.2/29
+	adr host d2 : 192.168.4.3/29
+Réseau Nom : Serveurs
+	adr réseau : 192.168.5.0
+	netmask : 255.255.255.248/29
+	adr broadcast : 192.168.5.7
+	adr routeur r2 : 192.168.5.1/29
+	adr host s1 : 192.168.5.2/29
+	adr host s2 : 192.168.5.3/29
+Réseau Nom : Employes
+	adr réseau : 192.168.6.0
+	netmask : 255.255.255.128/25
+	adr broadcast : 192.168.6.127
+	adr routeur r2 : 192.168.6.1/25
+	adr host h1 : 192.168.6.2/25
+	adr host h2 : 192.168.6.3/25
+	adr host h100 : 192.168.6.4/25
+
+
