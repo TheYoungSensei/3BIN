@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="CourseSet" EntityType="Model1.Store.CourseSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProfessorSet" EntityType="Model1.Store.ProfessorSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SectionSet" EntityType="Model1.Store.SectionSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentSet" EntityType="Model1.Store.StudentSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ProfessorCourse" Association="Model1.Store.ProfessorCourse">
+      <End Role="Professor" EntitySet="ProfessorSet" />
+      <End Role="Course" EntitySet="CourseSet" />
+    </AssociationSet>
+    <AssociationSet Name="SectionProfessor" Association="Model1.Store.SectionProfessor">
+      <End Role="Section" EntitySet="SectionSet" />
+      <End Role="Professor" EntitySet="ProfessorSet" />
+    </AssociationSet>
+    <AssociationSet Name="StudentSection" Association="Model1.Store.StudentSection">
+      <End Role="Student" EntitySet="StudentSet" />
+      <End Role="Section" EntitySet="SectionSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CourseSet">
+    <Key>
+      <PropertyRef Name="Course_Id" />
+    </Key>
+    <Property Name="Course_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Professor_Professor_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProfessorSet">
+    <Key>
+      <PropertyRef Name="Professor_Id" />
+    </Key>
+    <Property Name="Professor_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Firstname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Section_Section_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SectionSet">
+    <Key>
+      <PropertyRef Name="Section_Id" />
+    </Key>
+    <Property Name="Section_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentSet">
+    <Key>
+      <PropertyRef Name="Student_Id" />
+    </Key>
+    <Property Name="Student_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Firstname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="YearResult" Type="bigint" Nullable="false" />
+    <Property Name="Section_Section_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <Association Name="ProfessorCourse">
+    <End Role="Professor" Type="Model1.Store.ProfessorSet" Multiplicity="1" />
+    <End Role="Course" Type="Model1.Store.CourseSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Professor">
+        <PropertyRef Name="Professor_Id" />
+      </Principal>
+      <Dependent Role="Course">
+        <PropertyRef Name="Professor_Professor_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SectionProfessor">
+    <End Role="Section" Type="Model1.Store.SectionSet" Multiplicity="1" />
+    <End Role="Professor" Type="Model1.Store.ProfessorSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Section">
+        <PropertyRef Name="Section_Id" />
+      </Principal>
+      <Dependent Role="Professor">
+        <PropertyRef Name="Section_Section_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentSection">
+    <End Role="Student" Type="Model1.Store.StudentSet" Multiplicity="*" />
+    <End Role="Section" Type="Model1.Store.SectionSet" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Section">
+        <PropertyRef Name="Section_Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="Section_Section_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CourseSet" EntityType="Model1.Course" />
+          <EntitySet Name="ProfessorSet" EntityType="Model1.Professor" />
+          <EntitySet Name="SectionSet" EntityType="Model1.Section" />
+          <EntitySet Name="StudentSet" EntityType="Model1.Student" />
+          <AssociationSet Name="ProfessorCourse" Association="Model1.ProfessorCourse">
+            <End Role="Professor" EntitySet="ProfessorSet" />
+            <End Role="Course" EntitySet="CourseSet" />
+          </AssociationSet>
+          <AssociationSet Name="SectionProfessor" Association="Model1.SectionProfessor">
+            <End Role="Section" EntitySet="SectionSet" />
+            <End Role="Professor" EntitySet="ProfessorSet" />
+          </AssociationSet>
+          <AssociationSet Name="StudentSection" Association="Model1.StudentSection">
+            <End Role="Student" EntitySet="StudentSet" />
+            <End Role="Section" EntitySet="SectionSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="Course_Id" />
+          </Key>
+          <Property Name="Course_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Professor" Relationship="Model1.ProfessorCourse" FromRole="Course" ToRole="Professor" />
+        </EntityType>
+        <EntityType Name="Professor">
+          <Key>
+            <PropertyRef Name="Professor_Id" />
+          </Key>
+          <Property Name="Professor_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Firstname" Type="String" Nullable="false" />
+          <NavigationProperty Name="Course" Relationship="Model1.ProfessorCourse" FromRole="Professor" ToRole="Course" />
+          <NavigationProperty Name="Section" Relationship="Model1.SectionProfessor" FromRole="Professor" ToRole="Section" />
+        </EntityType>
+        <EntityType Name="Section">
+          <Key>
+            <PropertyRef Name="Section_Id" />
+          </Key>
+          <Property Name="Section_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Professor" Relationship="Model1.SectionProfessor" FromRole="Section" ToRole="Professor" />
+          <NavigationProperty Name="Student" Relationship="Model1.StudentSection" FromRole="Section" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Student_Id" />
+          </Key>
+          <Property Name="Student_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Firstname" Type="String" Nullable="false" />
+          <Property Name="YearResult" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="Section" Relationship="Model1.StudentSection" FromRole="Student" ToRole="Section" />
+        </EntityType>
+        <Association Name="ProfessorCourse">
+          <End Type="Model1.Professor" Role="Professor" Multiplicity="1" />
+          <End Type="Model1.Course" Role="Course" Multiplicity="*" />
+        </Association>
+        <Association Name="SectionProfessor">
+          <End Type="Model1.Section" Role="Section" Multiplicity="1" />
+          <End Type="Model1.Professor" Role="Professor" Multiplicity="*" />
+        </Association>
+        <Association Name="StudentSection">
+          <End Type="Model1.Student" Role="Student" Multiplicity="*" />
+          <End Type="Model1.Section" Role="Section" Multiplicity="0..1" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="CourseSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Course)">
+        <MappingFragment StoreEntitySet="CourseSet">
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProfessorSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Professor)">
+        <MappingFragment StoreEntitySet="ProfessorSet">
+          <ScalarProperty Name="Professor_Id" ColumnName="Professor_Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SectionSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Section)">
+        <MappingFragment StoreEntitySet="SectionSet">
+          <ScalarProperty Name="Section_Id" ColumnName="Section_Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Student)">
+        <MappingFragment StoreEntitySet="StudentSet">
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="YearResult" ColumnName="YearResult" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ProfessorCourse" TypeName="Model1.ProfessorCourse" StoreEntitySet="CourseSet">
+      <EndProperty Name="Professor">
+        <ScalarProperty Name="Professor_Id" ColumnName="Professor_Professor_Id" />
+      </EndProperty>
+      <EndProperty Name="Course">
+        <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SectionProfessor" TypeName="Model1.SectionProfessor" StoreEntitySet="ProfessorSet">
+      <EndProperty Name="Section">
+        <ScalarProperty Name="Section_Id" ColumnName="Section_Section_Id" />
+      </EndProperty>
+      <EndProperty Name="Professor">
+        <ScalarProperty Name="Professor_Id" ColumnName="Professor_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentSection" TypeName="Model1.StudentSection" StoreEntitySet="StudentSet">
+      <EndProperty Name="Section">
+        <ScalarProperty Name="Section_Id" ColumnName="Section_Section_Id" />
+      </EndProperty>
+      <EndProperty Name="Student">
+        <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+      </EndProperty>
+      <Condition ColumnName="Section_Section_Id" IsNull="false" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Aucun" />
+        <DesignerProperty Name="UseLegacyProvider" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
