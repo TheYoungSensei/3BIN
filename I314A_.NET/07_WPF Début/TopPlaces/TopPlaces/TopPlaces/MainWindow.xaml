@@ -1,0 +1,61 @@
+﻿<Window x:Class="TopPlaces.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="1020.167"
+        xmlns:pd="clr-namespace:TopPlaces"
+        xmlns:local="clr-namespace:TopPlaces">
+    <Window.Resources>
+        <local:ImagePathConverter x:Key="imgPathConverter"/>
+        <Style x:Key="TitreStyle">
+            <Setter Property="Label.FontSize" Value="18" />
+            <Setter Property="Label.BorderBrush" Value="Black"/>
+            <Setter Property="Label.BorderThickness" Value="2"/>
+        </Style>
+        <Style x:Key="labelStyle">
+            <Setter Property="Label.FontFamily" Value="courier new" />
+        </Style>
+        <DataTemplate x:Key="ItemTemplate">
+            <StackPanel  Orientation="Horizontal" Margin="0 5 0 5">
+                <Image Width="50" Height="50" Stretch="Fill" Source="{Binding Image}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Label Content="{Binding Description}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </DataTemplate>
+
+
+    </Window.Resources>
+
+    <Grid HorizontalAlignment="Left" Width="976" Margin="0,0,-8,0">
+        <ListBox x:Name="listBoxPhotos"  HorizontalAlignment="Left" Height="211" Margin="10,52,0,0" VerticalAlignment="Top" Width="150"
+                 ItemTemplate="{StaticResource ItemTemplate}" ItemsSource="{Binding}" SelectionChanged="photosList_SelectionChanged">
+        </ListBox>
+
+
+
+        <Image x:Name="Image1" Stretch="Fill" HorizontalAlignment="Left" Height="274" Margin="203,52,0,0" VerticalAlignment="Top" Width="582">
+
+
+        </Image>
+
+
+
+        <Button Height="Auto" Margin="378,484,641,38" Click="Button_Click">
+            <StackPanel Orientation="Horizontal" Width="113">
+                <Image Source="/images/jaime.png" Height="23" Width="43" Margin="0,0,0,0" HorizontalAlignment="Left"/>
+                <TextBlock Text="Je vote pour" VerticalAlignment="Center" Width="74"/>
+            </StackPanel>
+        </Button>
+
+        <Label x:Name="UriPath" Content="{Binding ElementName=listBoxPhotos ,Path=SelectedItem.Path,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="301,399,0,0" VerticalAlignment="Top" Height="26" Width="901"/>
+
+        <Label x:Name="ConvertPath" Content="{Binding ElementName=listBoxPhotos ,Path=SelectedItem.Path,UpdateSourceTrigger=PropertyChanged, Converter={StaticResource imgPathConverter}}" HorizontalAlignment="Left" Margin="301,364,0,0" VerticalAlignment="Top" Width="901" Height="30"/>
+        <Label x:Name="Titre" Content="Top Places" Style="{StaticResource TitreStyle}" HorizontalAlignment="Left" Margin="238,8,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="DescriptionLabel" Content="Description : " HorizontalAlignment="Left" Margin="202,337,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ConvertPathLabel" Content="Chemin Fichier :" HorizontalAlignment="Left" Margin="202,368,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="UriPathLabel" Content="URI Fichier :" HorizontalAlignment="Left" Margin="202,399,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Description" Content="{Binding ElementName=listBoxPhotos,Path=SelectedItem.Description}" HorizontalAlignment="Left" Margin="301,337,0,0" VerticalAlignment="Top" Width="901" Height="26"/>
+        <Label x:Name="NbVotesLabel" Content="Nb de votes :" HorizontalAlignment="Left" Margin="202,430,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="NbVotes" Content="{Binding ElementName=listBoxPhotos, Path=SelectedItem.NbVotes}" HorizontalAlignment="Left" Margin="301,430,0,0" VerticalAlignment="Top" Width="231" Height="25"/>
+
+    </Grid>
+
+</Window>
